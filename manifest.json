@@ -2,11 +2,11 @@
   "version": "0.9.1",
   "plugin_id": "dola_doubao_auto_plugin",
   "name": "Dola豆包自动插件",
-  "url": "https://github.com/你的用户名/dola-plugin-update/releases/download/v0.9.1/dola_doubao_auto_plugin-v0.9.1.zip",
-  "zip_url": "https://github.com/你的用户名/dola-plugin-update/releases/download/v0.9.1/dola_doubao_auto_plugin-v0.9.1.zip",
-  "sha256": "20d7f27c5bbe7c02c445baa4606c1ec7f05170dfcb80ca37f8e6fa662b63c838",
-  "size": 46249,
+  "url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.1/dola_doubao_auto_plugin-v0.9.1.zip",
+  "zip_url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.1/dola_doubao_auto_plugin-v0.9.1.zip",
+  "sha256": "f843b4774d73cff92634502568f683aab094cd590aee098a62776309bf4b28eb",
+  "size": 46297,
   "force": false,
   "notes": "修复旧对话检查误触重命名；补齐字字手动参考图；120秒无入队回执自动新建对话重提；肖像保护晚到时同账号原样重提。",
-  "updated_at": "2026-08-28 12:03:51"
+  "updated_at": "2026-08-28 12:39:04"
 }

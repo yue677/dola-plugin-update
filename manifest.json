@@ -1,12 +1,12 @@
 {
-  "version": "0.9.2",
+  "version": "0.9.3",
   "plugin_id": "dola_doubao_auto_plugin",
   "name": "Dola豆包自动插件",
-  "url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.2/dola_doubao_auto_plugin-v0.9.2.zip",
-  "zip_url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.2/dola_doubao_auto_plugin-v0.9.2.zip",
-  "sha256": "9d1edbfe4685f05c39c8a785a7d7efa3c238ed9ddc41806409a55e9ad4e1340e",
-  "size": 51926,
+  "url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.3/dola_doubao_auto_plugin-v0.9.3.zip",
+  "zip_url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.3/dola_doubao_auto_plugin-v0.9.3.zip",
+  "sha256": "ce0c09ba02c1d347abdd775d28f81a662a1f97ae85f59ec60522c50def2c4ad5",
+  "size": 53177,
   "force": false,
-  "notes": "修复英文界面识别、对话误切换和误抓旧视频；新对话最多4次后换号；支持指定起始账号；仅在恢复中断任务时查找旧任务；顶部显示新版提醒。",
-  "updated_at": "2026-08-30 13:57:14"
+  "notes": "识别入队后视频生成失败且额度未扣除，自动新建对话重提；修复 Windows 覆盖权限失败；下载断线自动重试 4 次。",
+  "updated_at": "2026-08-30 17:20:00"
 }

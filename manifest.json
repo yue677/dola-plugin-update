@@ -1,12 +1,12 @@
 {
-  "version": "0.9.3",
+  "version": "0.9.43",
   "plugin_id": "dola_doubao_auto_plugin",
-  "name": "Dola豆包自动插件",
-  "url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.3/dola_doubao_auto_plugin-v0.9.3.zip",
-  "zip_url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.3/dola_doubao_auto_plugin-v0.9.3.zip",
-  "sha256": "ce0c09ba02c1d347abdd775d28f81a662a1f97ae85f59ec60522c50def2c4ad5",
-  "size": 53177,
+  "name": "Anne自动化插件",
+  "url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.43/dola_doubao_auto_plugin-v0.9.43.zip",
+  "zip_url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.43/dola_doubao_auto_plugin-v0.9.43.zip",
+  "sha256": "f17692fab5acebdc6843cd74854ee0043d306204550f1312b47e4462aa53610b",
+  "size": 110794,
   "force": false,
-  "notes": "识别入队后视频生成失败且额度未扣除，自动新建对话重提；修复 Windows 覆盖权限失败；下载断线自动重试 4 次。",
-  "updated_at": "2026-08-30 17:20:00"
+  "notes": "统一改名为 Anne自动化插件；新增深色更新弹窗。发现新版时可立即更新或稍后；任务运行/排队时延后，安装后重启生效。保留配置、授权模块与任务记录。修复参考图完成状态识别和生成等待提示。",
+  "updated_at": "2026-09-17 22:58:51"
 }

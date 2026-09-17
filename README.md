@@ -9,3 +9,11 @@
 原字字插件联网更新保持独立。
 
 <!-- /anne-workbench-download -->
+
+<!-- anne-plugin-download -->
+
+## Anne自动化插件
+
+[最新版插件与更新说明](https://github.com/yue677/dola-plugin-update/releases/tag/v0.9.43) · v0.9.43，深色更新弹窗。已安装旧版请先使用原“更新检测”升级一次，重启后启用新弹窗。
+
+<!-- /anne-plugin-download -->

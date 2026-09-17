@@ -1,1 +1,11 @@
 # dola-plugin-update
+
+<!-- anne-workbench-download -->
+
+## Anne工作台 · 轻量联网版
+
+[下载说明与当前版本](WORKBENCH_DOWNLOAD.md) · 首次分享包约 73.2 MB，运行时弹窗安装组件。
+
+原字字插件联网更新保持独立。
+
+<!-- /anne-workbench-download -->

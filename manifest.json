@@ -1,12 +1,12 @@
 {
-  "version": "0.9.44",
+  "version": "0.9.45",
   "plugin_id": "dola_doubao_auto_plugin",
   "name": "Anne自动化插件",
-  "url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.44/dola_doubao_auto_plugin-v0.9.44.zip",
-  "zip_url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.44/dola_doubao_auto_plugin-v0.9.44.zip",
-  "sha256": "0d640c4a4659733cde9993c4e11d51d49d3ce5007cd11734efda1a501abe3ecf",
+  "url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.45/dola_doubao_auto_plugin-v0.9.45.zip",
+  "zip_url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.45/dola_doubao_auto_plugin-v0.9.45.zip",
+  "sha256": "3ad00b757a45282dca6c0118948bf9f34813c947f1bfe556ecd023b7a98ac2d5",
   "size": 112463,
   "force": false,
-  "notes": "修复豆包段内换行漏读导致“输入框实际文本与分镜提示词不一致”；保留真实换行和文字，延长慢机器输入同步等待。普通号 Fast 15秒坚持普通对话路径，发送前检查模式，不需要点击强开15秒。增加不泄露提示词的差异诊断。安装后重启字字动画。",
-  "updated_at": "2026-09-18 08:25:23"
+  "notes": "修复豆包账号验证：登录后自动发一次你好；如果用户手动发送任意内容且收到本次完整回复、账号未掉线，也会自动保存。兼容英文/数字/短回复，排除旧历史回复；修复英文 New Chat 和多个页面目标识别。保留配置、授权模块与任务记录。",
+  "updated_at": "2026-09-18 09:44:49"
 }

@@ -1,12 +1,12 @@
 {
-  "version": "0.9.45",
+  "version": "0.9.46",
   "plugin_id": "dola_doubao_auto_plugin",
   "name": "Anne自动化插件",
-  "url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.45/dola_doubao_auto_plugin-v0.9.45.zip",
-  "zip_url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.45/dola_doubao_auto_plugin-v0.9.45.zip",
-  "sha256": "3ad00b757a45282dca6c0118948bf9f34813c947f1bfe556ecd023b7a98ac2d5",
-  "size": 112463,
+  "url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.46/dola_doubao_auto_plugin-v0.9.46.zip",
+  "zip_url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.46/dola_doubao_auto_plugin-v0.9.46.zip",
+  "sha256": "ec3301b002ac6a6cec837acab16060a090b4a3b245589c2aad4f912eca95f5a2",
+  "size": 118203,
   "force": false,
-  "notes": "修复豆包账号验证：登录后自动发一次你好；如果用户手动发送任意内容且收到本次完整回复、账号未掉线，也会自动保存。兼容英文/数字/短回复，排除旧历史回复；修复英文 New Chat 和多个页面目标识别。保留配置、授权模块与任务记录。",
-  "updated_at": "2026-09-18 09:44:49"
+  "notes": "修复Windows多行提示词在豆包输入后被多插空格、发送前校验失败：写入前统一换行，仍严格校验正文。新增本地诊断与“导出日志”，保留最近48小时；不收集提示词、聊天或授权码。保留授权、配置、任务记录；安装后重启字字动画。",
+  "updated_at": "2026-09-18 14:51:03"
 }

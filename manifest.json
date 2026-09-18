@@ -1,12 +1,12 @@
 {
-  "version": "0.9.43",
+  "version": "0.9.44",
   "plugin_id": "dola_doubao_auto_plugin",
   "name": "Anne自动化插件",
-  "url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.43/dola_doubao_auto_plugin-v0.9.43.zip",
-  "zip_url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.43/dola_doubao_auto_plugin-v0.9.43.zip",
-  "sha256": "f17692fab5acebdc6843cd74854ee0043d306204550f1312b47e4462aa53610b",
-  "size": 110794,
+  "url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.44/dola_doubao_auto_plugin-v0.9.44.zip",
+  "zip_url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.44/dola_doubao_auto_plugin-v0.9.44.zip",
+  "sha256": "0d640c4a4659733cde9993c4e11d51d49d3ce5007cd11734efda1a501abe3ecf",
+  "size": 112463,
   "force": false,
-  "notes": "统一改名为 Anne自动化插件；新增深色更新弹窗。发现新版时可立即更新或稍后；任务运行/排队时延后，安装后重启生效。保留配置、授权模块与任务记录。修复参考图完成状态识别和生成等待提示。",
-  "updated_at": "2026-09-17 22:58:51"
+  "notes": "修复豆包段内换行漏读导致“输入框实际文本与分镜提示词不一致”；保留真实换行和文字，延长慢机器输入同步等待。普通号 Fast 15秒坚持普通对话路径，发送前检查模式，不需要点击强开15秒。增加不泄露提示词的差异诊断。安装后重启字字动画。",
+  "updated_at": "2026-09-18 08:25:23"
 }

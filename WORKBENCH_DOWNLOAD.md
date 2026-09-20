@@ -1,8 +1,8 @@
 # Anne工作台 · 轻量联网版下载
 
-[前往当前版本下载页面](https://github.com/yue677/dola-plugin-update/releases/tag/anne-v0.2.21)
+[前往当前版本下载页面](https://github.com/yue677/dola-plugin-update/releases/tag/anne-v0.2.22)
 
-只下载 **AnneWorkbench-Share.zip**（约 73.2 MB），完整解压后得到“Anne工作台_分享版”文件夹，双击 Anne工作台.exe。首次弹窗补齐 Qt 和 Dola 组件，安装后仍约占用 2 GB；请预留至少 4 GB 空间。有效授权仍为必需。
+只下载 **AnneWorkbench-Share.zip**（约 73.3 MB），完整解压后得到“Anne工作台_分享版”文件夹，双击 Anne工作台.exe。首次弹窗补齐 Qt 和 Dola 组件，安装后仍约占用 2 GB；请预留至少 4 GB 空间。有效授权仍为必需。
 
 下载支持断点续传、签名和文件校验。后续有更新时提示，可稍后更新；账号、授权和登录缓存保留，不强制关闭正在运行的任务。
 

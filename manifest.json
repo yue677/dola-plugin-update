@@ -1,12 +1,12 @@
 {
-  "version": "0.9.49",
+  "version": "0.9.50",
   "plugin_id": "dola_doubao_auto_plugin",
   "name": "Anne自动化插件",
-  "url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.49/dola_doubao_auto_plugin-v0.9.49.zip",
-  "zip_url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.49/dola_doubao_auto_plugin-v0.9.49.zip",
-  "sha256": "a6a61ce33aa8fc854b4d59bb66a893773f349115e8493ee35d6fcc89c6a552d9",
-  "size": 140960,
+  "url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.50/dola_doubao_auto_plugin-v0.9.50.zip",
+  "zip_url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.50/dola_doubao_auto_plugin-v0.9.50.zip",
+  "sha256": "d6c319590e0140ebdcd6371b658eda6b7960b758c009a649a88228f387a41eeb",
+  "size": 146145,
   "force": false,
-  "notes": "• 需配合 Anne 工作台 0.2.21：请先更新并重新打开工作台，再更新插件并重启字字动画。工作台和插件使用独立更新通道，两者都要更新。\n• 修复旧多开器占用 8888 时误报已连接、读取豆包账号随后 HTTP 404：从所选 Anne 安装目录发现实际端口，核验安装目录、实例和接口能力，不把旧多开器状态接口当作工作台。\n• 运行任务与面板请求分别绑定工作台实例，防止切换安装目录或工作台重启后发往错误服务；失配会停止并提示重新连接，不自动重发提示词、上传图片或删除任务记录。\n• 保留分享版授权和账号操作校验，更新不覆盖个人授权模块、配置、缓存或生成记录。任务忙碌时延后提示，仅用户点击“立即更新”才安装。",
-  "updated_at": "2026-09-19 21:15:33"
+  "notes": "• 需配合 Anne工作台 0.2.22：先更新并重新打开工作台，再更新插件并完全退出后重开字字。缺少新时长接口时会明确提示，不回退到旧全账号广播接口。\n• 修复已打开的独立 Dola 客户端无法开启15秒模式：按原账号和精确任务页面设置时长，并在提交前核验，避免操作其它窗口或旧页面。\n• 修复非全屏时Ratio/16:9折叠进“…”后识别不到：只展开当前输入区菜单，选择后稳定回读比例，歧义、取消或对话变化时停止，不误点侧栏或成片菜单。\n• 豆包在同一原对话逐轮只回复“生成视频”，直到正式生成回执、进度或视频；每条完整稳定新回复最多发送一次，重启和传输不确定不重复发送，不再因普通文字说明新建对话重传。\n• 豆包2.5新任务固定30秒，2.0与Fast新任务固定15秒，既有任务保持原参数；Dola时长与回复规则不变。保留登录、限流、额度不足、明确失败及手动操作保护。\n• 更新包不覆盖授权模块、个人配置、缓存或任务数据；分享版继续校验授权，任务忙碌时延后更新提示。",
+  "updated_at": "2026-09-20 17:28:16"
 }

@@ -1,12 +1,12 @@
 {
-  "force": false,
-  "name": "Anne自动化插件",
-  "notes": "请先将 Anne 工作台更新至 0.2.25 并重开，再更新插件并完全退出后重开字字动画。\n修复 Dola 时长设置未落实到提交参数的问题，并核对成片时长；修复对话被误判为白屏后反复寻找最近记录、无法正常等待和下载的问题。\n完善豆包素材安全确认弹窗识别，兼容延迟出现及按钮晚就绪，点击后核验关闭；没有弹窗时正常继续。\n保留 2.0 Fast、2.0、2.5 的模型选择与现有时长规则；生成、自动下载和回传逻辑沿用已测试版本。\n版本统一为 v0.9.53；保留现有授权校验、个人配置、任务与账号数据。",
+  "version": "0.9.54",
   "plugin_id": "dola_doubao_auto_plugin",
-  "sha256": "26f050ff8c53bf8ba51dbd67d9034d766ae5aea86d77a02341d857b77758ada6",
-  "size": 153710,
-  "updated_at": "2026-09-22 16:36:53",
-  "url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.53/dola_doubao_auto_plugin-v0.9.53.zip",
-  "version": "0.9.53",
-  "zip_url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.53/dola_doubao_auto_plugin-v0.9.53.zip"
+  "name": "Anne自动化插件",
+  "url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.54/dola_doubao_auto_plugin-v0.9.54.zip",
+  "zip_url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.54/dola_doubao_auto_plugin-v0.9.54.zip",
+  "sha256": "654b9ef98305f3699d43877219d2dbdf91bfec12c3696f4611937e16b45e235c",
+  "size": 152848,
+  "force": false,
+  "notes": "• 额度按视频成片计数：检测到视频成片直接记成功 1 次，错误或暂停不扣次数；已确认平台无额度的账号不再打开检查。\n• 修复插件启动时自定义动作通道尚未就绪造成的误报，状态读取增加短暂等待和有限重试。\n• 修复豆包安全确认弹窗在对话路由切换期间的误判，继续绑定账号、CDP 页面和原对话，不重复点击或提交。\n• 修复视频回传后宿主状态短暂断连的误报，并保持原账号标签的精确关闭规则。\n• 修复豆包额度表格表头与数据列不对齐的问题；更新包不覆盖授权模块、个人配置、缓存或任务数据。",
+  "updated_at": "2026-09-24 15:27:14"
 }

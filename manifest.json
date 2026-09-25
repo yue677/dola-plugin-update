@@ -1,12 +1,12 @@
 {
-  "version": "0.9.54",
+  "version": "0.9.55",
   "plugin_id": "dola_doubao_auto_plugin",
   "name": "Anne自动化插件",
-  "url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.54/dola_doubao_auto_plugin-v0.9.54.zip",
-  "zip_url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.54/dola_doubao_auto_plugin-v0.9.54.zip",
-  "sha256": "654b9ef98305f3699d43877219d2dbdf91bfec12c3696f4611937e16b45e235c",
-  "size": 152848,
+  "url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.55/dola_doubao_auto_plugin-v0.9.55.zip",
+  "zip_url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.55/dola_doubao_auto_plugin-v0.9.55.zip",
+  "sha256": "b0e44e07041ba0f81be4949e7c8126ee80b4574fc18b301cd395e177929efc94",
+  "size": 154921,
   "force": false,
-  "notes": "• 额度按视频成片计数：检测到视频成片直接记成功 1 次，错误或暂停不扣次数；已确认平台无额度的账号不再打开检查。\n• 修复插件启动时自定义动作通道尚未就绪造成的误报，状态读取增加短暂等待和有限重试。\n• 修复豆包安全确认弹窗在对话路由切换期间的误判，继续绑定账号、CDP 页面和原对话，不重复点击或提交。\n• 修复视频回传后宿主状态短暂断连的误报，并保持原账号标签的精确关闭规则。\n• 修复豆包额度表格表头与数据列不对齐的问题；更新包不覆盖授权模块、个人配置、缓存或任务数据。",
-  "updated_at": "2026-09-24 15:27:14"
+  "notes": "• Dola 发送后遇到确认或方案回复、入队回执延迟时保留原对话，避免因此新建对话并重复上传同一批图片。\n• 尚未确认入队的任务不按成功入队记账；保留原对话等待结果，无法锁定原对话时停止自动重传。\n• 豆包原片下载支持有限重试和断点续传，校验续传偏移并隔离不同候选；分块校验文件，减少内存占用。\n• 保留豆包套餐缓存和额度跳过、新任务新建对话、会员失效切号修复；更新保留授权、账号、配置和任务数据。",
+  "updated_at": "2026-09-25 08:55:20"
 }

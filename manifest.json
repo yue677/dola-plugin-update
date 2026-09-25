@@ -1,12 +1,12 @@
 {
-  "version": "0.9.55",
+  "version": "0.9.56",
   "plugin_id": "dola_doubao_auto_plugin",
   "name": "Anne自动化插件",
-  "url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.55/dola_doubao_auto_plugin-v0.9.55.zip",
-  "zip_url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.55/dola_doubao_auto_plugin-v0.9.55.zip",
-  "sha256": "b0e44e07041ba0f81be4949e7c8126ee80b4574fc18b301cd395e177929efc94",
-  "size": 154921,
+  "url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.56/dola_doubao_auto_plugin-v0.9.56.zip",
+  "zip_url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.56/dola_doubao_auto_plugin-v0.9.56.zip",
+  "sha256": "fa415968c8a5b838794ce1e3b8aac98347cdd853d5e34f79a9b4d501decd5d4d",
+  "size": 155112,
   "force": false,
-  "notes": "• Dola 发送后遇到确认或方案回复、入队回执延迟时保留原对话，避免因此新建对话并重复上传同一批图片。\n• 尚未确认入队的任务不按成功入队记账；保留原对话等待结果，无法锁定原对话时停止自动重传。\n• 豆包原片下载支持有限重试和断点续传，校验续传偏移并隔离不同候选；分块校验文件，减少内存占用。\n• 保留豆包套餐缓存和额度跳过、新任务新建对话、会员失效切号修复；更新保留授权、账号、配置和任务数据。",
-  "updated_at": "2026-09-25 08:55:20"
+  "notes": "• 识别 Dola 英文额度回执：本次所需额度大于剩余 1 或 2 个时立即切换账号，不在原账号重复上传或提交。\n• 剩余额度大于 2 个时按原规则允许重试；额度不足回执不记为成功。\n• 保留后台强开请求、原对话草稿保护、豆包原片断点续传和流式校验；更新不覆盖授权、账号、配置、缓存或任务记录。",
+  "updated_at": "2026-09-25 17:41:21"
 }

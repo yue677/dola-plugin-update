@@ -1,12 +1,12 @@
 {
-  "version": "0.9.56",
+  "version": "0.9.57",
   "plugin_id": "dola_doubao_auto_plugin",
   "name": "Anne自动化插件",
-  "url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.56/dola_doubao_auto_plugin-v0.9.56.zip",
-  "zip_url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.56/dola_doubao_auto_plugin-v0.9.56.zip",
-  "sha256": "fa415968c8a5b838794ce1e3b8aac98347cdd853d5e34f79a9b4d501decd5d4d",
-  "size": 155112,
+  "url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.57/dola_doubao_auto_plugin-v0.9.57.zip",
+  "zip_url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.57/dola_doubao_auto_plugin-v0.9.57.zip",
+  "sha256": "d06c6dd4196603c5536a8f5afeddc3f48d3207ad40b58d0838e2b81e5018b3d6",
+  "size": 156792,
   "force": false,
-  "notes": "• 识别 Dola 英文额度回执：本次所需额度大于剩余 1 或 2 个时立即切换账号，不在原账号重复上传或提交。\n• 剩余额度大于 2 个时按原规则允许重试；额度不足回执不记为成功。\n• 保留后台强开请求、原对话草稿保护、豆包原片断点续传和流式校验；更新不覆盖授权、账号、配置、缓存或任务记录。",
-  "updated_at": "2026-09-25 17:41:21"
+  "notes": "• 识别 Dola 英文额度回执：本次所需额度大于剩余 1 或 2 个时立即切换账号，不在原账号重复上传或提交。\n• 剩余额度大于 2 个时按原规则允许重试；额度不足回执不记为成功。\n• 保留后台强开请求、原对话草稿保护、豆包原片断点续传和流式校验；更新不覆盖授权、账号、配置、缓存或任务记录。\n• 等待 Dola 素材预处理完成后再发送；预处理失败直接保留草稿并停止，避免提示词发送后触发客户端再次上传图片。",
+  "updated_at": "2026-09-26 04:12:22"
 }

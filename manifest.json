@@ -1,12 +1,12 @@
 {
-  "version": "0.9.57",
+  "version": "0.9.58",
   "plugin_id": "dola_doubao_auto_plugin",
   "name": "Anne自动化插件",
-  "url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.57/dola_doubao_auto_plugin-v0.9.57.zip",
-  "zip_url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.57/dola_doubao_auto_plugin-v0.9.57.zip",
-  "sha256": "d06c6dd4196603c5536a8f5afeddc3f48d3207ad40b58d0838e2b81e5018b3d6",
+  "url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.58/dola_doubao_auto_plugin-v0.9.58.zip",
+  "zip_url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.58/dola_doubao_auto_plugin-v0.9.58.zip",
+  "sha256": "cafee07018982a431de8088c05ee11d4c318035974ac917dd9051ab61bb633d7",
   "size": 156792,
   "force": false,
-  "notes": "• 识别 Dola 英文额度回执：本次所需额度大于剩余 1 或 2 个时立即切换账号，不在原账号重复上传或提交。\n• 剩余额度大于 2 个时按原规则允许重试；额度不足回执不记为成功。\n• 保留后台强开请求、原对话草稿保护、豆包原片断点续传和流式校验；更新不覆盖授权、账号、配置、缓存或任务记录。\n• 等待 Dola 素材预处理完成后再发送；预处理失败直接保留草稿并停止，避免提示词发送后触发客户端再次上传图片。",
-  "updated_at": "2026-09-26 04:12:22"
+  "notes": "• 识别 Dola 英文额度回执：本次所需额度大于剩余 1 或 2 个时立即切换账号，不在原账号重复上传或提交。\n• 剩余额度大于 2 个时按原规则允许重试；额度不足回执不记为成功。\n• 保留后台强开请求、原对话草稿保护、豆包原片断点续传和流式校验；更新不覆盖授权、账号、配置、缓存或任务记录。\n• 等待 Dola 素材预处理完成后再发送；预处理失败直接保留草稿并停止，避免提示词发送后触发客户端再次上传图片。\n• 发送请求确认后清理当前输入区残留的文件列表和素材卡片，修复客户端提交后的 React 重绘导致素材再次挂载。",
+  "updated_at": "2026-09-26 08:25:29"
 }

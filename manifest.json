@@ -1,12 +1,12 @@
 {
-  "version": "0.9.59",
+  "version": "0.9.60",
   "plugin_id": "dola_doubao_auto_plugin",
   "name": "Anne自动化插件",
-  "url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.59/dola_doubao_auto_plugin-v0.9.59.zip",
-  "zip_url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.59/dola_doubao_auto_plugin-v0.9.59.zip",
-  "sha256": "0c5b6eb31af9a42b78214270db652cd87d831b6c8eb44e3c18c818ce04321028",
-  "size": 159253,
+  "url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.60/dola_doubao_auto_plugin-v0.9.60.zip",
+  "zip_url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.60/dola_doubao_auto_plugin-v0.9.60.zip",
+  "sha256": "705e22fa0413b74bd9e16c9a394e5da15476728de3c46f0952116e9ac65d350f",
+  "size": 160858,
   "force": false,
-  "notes": "• 同一轮 Dola 图文提交写入账号与对话提交锁，发送后不会在同一对话再次上传图片；只有确认空白新对话后才解除锁。\n• 识别 Dola 中文或英文的方案选择、版权限制和视频生成失败回复，自动新建空白对话重新提交；普通确认回复仍保留等待逻辑。\n• 补齐英文 A/B 方案识别和新对话重提规则，覆盖 15 秒与 30 秒流程；不修改 Dola/Cici 客户端内部文件。\n• 保留账号、授权、配置、缓存和任务记录，更新包不覆盖个人数据。",
-  "updated_at": "2026-09-27 20:18:52"
+  "notes": "• 豆包模型菜单尚未加载完成时等待并重试，避免标准套餐账号被误判为会员失效后切号。\n• 确认模型菜单已加载且确实没有目标模型时才切换账号；菜单持续未加载只暂停当前任务。\n• 本次只修改豆包适配器，不修改 Dola/Cici 客户端；保留账号、授权、配置、缓存和任务记录。",
+  "updated_at": "2026-10-01 17:01:38"
 }

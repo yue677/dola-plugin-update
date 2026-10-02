@@ -1,12 +1,12 @@
 {
-  "version": "0.9.60",
+  "version": "0.9.61",
   "plugin_id": "dola_doubao_auto_plugin",
   "name": "Anne自动化插件",
-  "url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.60/dola_doubao_auto_plugin-v0.9.60.zip",
-  "zip_url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.60/dola_doubao_auto_plugin-v0.9.60.zip",
-  "sha256": "705e22fa0413b74bd9e16c9a394e5da15476728de3c46f0952116e9ac65d350f",
-  "size": 160858,
+  "url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.61/dola_doubao_auto_plugin-v0.9.61.zip",
+  "zip_url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.61/dola_doubao_auto_plugin-v0.9.61.zip",
+  "sha256": "25edf8c4cc8529aa10cdd47dab7437ed634a66e7f51acac428c7406ffe7f8ee4",
+  "size": 168089,
   "force": false,
-  "notes": "• 豆包模型菜单尚未加载完成时等待并重试，避免标准套餐账号被误判为会员失效后切号。\n• 确认模型菜单已加载且确实没有目标模型时才切换账号；菜单持续未加载只暂停当前任务。\n• 本次只修改豆包适配器，不修改 Dola/Cici 客户端；保留账号、授权、配置、缓存和任务记录。",
-  "updated_at": "2026-10-01 17:01:38"
+  "notes": "• 豆包 Seedance 2.0 Fast 已收到两次生成视频回复但没有生成回执时，在原账号新建对话重提；最多重提 2 次。\n• 两次新对话重提仍没有回执时，当天跳过该账号，第二天自动恢复尝试；不再反复打开同一账号。\n• 选择 Seedance 2.0/2.5 时只使用账号上已经记录的标准套餐标记，已识别账号直接调度，不再逐个打开重复检查。\n• 本次只修改插件逻辑，不修改 Dola/Cici 客户端；保留账号、授权、配置、缓存和任务记录。",
+  "updated_at": "2026-10-02 09:50:00"
 }

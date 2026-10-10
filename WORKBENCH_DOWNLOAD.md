@@ -1,8 +1,8 @@
 # Anne工作台 · 轻量联网版下载
 
-[前往当前版本下载页面](https://github.com/yue677/dola-plugin-update/releases/tag/anne-v0.2.43)
+[前往当前版本下载页面](https://github.com/yue677/dola-plugin-update/releases/tag/anne-v0.2.44)
 
-只下载 **AnneWorkbench-Share.zip**（约 73.3 MB），完整解压后得到“Anne工作台_分享版”文件夹，双击 Anne工作台.exe。首次启动填写微信昵称并点击“申请授权”，等待所有者在后台批准，随后自动下载补齐运行组件并沿用批准记录进入工作台，不需要复制卡密。安装后约占用 2 GB，请预留至少 4 GB 空间。
+只下载 **AnneWorkbench-Share.zip**（约 73.4 MB），完整解压后得到“Anne工作台_分享版”文件夹，双击 Anne工作台.exe。首次启动填写微信昵称并点击“申请授权”，等待所有者在后台批准，随后自动下载补齐运行组件并沿用批准记录进入工作台，不需要复制卡密。安装后约占用 2 GB，请预留至少 4 GB 空间。
 
 下载支持断点续传、签名和文件校验。后续有更新时提示，可稍后更新；账号、授权和登录缓存保留，不强制关闭正在运行的任务。
 

@@ -1,12 +1,12 @@
 {
-  "version": "0.9.62",
+  "version": "0.9.63",
   "plugin_id": "dola_doubao_auto_plugin",
   "name": "Anne自动化插件",
-  "url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.62/dola_doubao_auto_plugin-v0.9.62.zip",
-  "zip_url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.62/dola_doubao_auto_plugin-v0.9.62.zip",
-  "sha256": "aa2331f84d7b4a3d8b413e8dafafc70adf307aa7eb26a64808f4ee2682d2fa77",
-  "size": 169796,
+  "url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.63/dola_doubao_auto_plugin-v0.9.63.zip",
+  "zip_url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.63/dola_doubao_auto_plugin-v0.9.63.zip",
+  "sha256": "5f7ca8c5ef5e3a8a8e71fd6482db203e54575077eb1086855c2ca23a7a19f2e6",
+  "size": 170464,
   "force": false,
-  "notes": "• 豆包账号掉线且尚未填写图文时自动跳过并尝试其他可用账号，旧套餐缓存不再掩盖掉线状态；已有草稿或已提交的任务保留原账号和记录，不因掉线重复上传或发送。\n• 识别“体验套餐”及旧称“标准套餐”，两种会员标记都参与 Seedance 2.0/2.5 和 Fast 调度，额度与页面状态仍按账号核对。\n• 自动识别豆包账号的视频生成入口：直接入口和“技能”里的视频生成均可使用；没有可靠入口时停止，不向普通对话误发图文。\n• 改进豆包原片查询等待与重试，避免页面目录暂未刷新时一直等待；保留任务与原片校验，不使用预览流代替原片。\n• 更新保留原有账号、授权、配置、缓存和任务记录；插件安装后需重启字字动画。",
-  "updated_at": "2026-10-13 16:03:46"
+  "notes": "• 豆包账号掉线且尚未填写图文时自动跳过并尝试其他可用账号，旧套餐缓存不再掩盖掉线状态；已有草稿或已提交的任务保留原账号和记录，不因掉线重复上传或发送。\n• 识别“体验套餐”及旧称“标准套餐”，两种会员标记都参与 Seedance 2.0/2.5 和 Fast 调度，额度与页面状态仍按账号核对。\n• 自动识别豆包账号的视频生成入口：直接入口、“技能”里的视频生成，以及输入框“更多”里的视频生成均可使用；没有可靠入口时停止，不向普通对话误发图文。\n• 兼容豆包官方将请求包装为“生成视频：原提示词，16:9，15s，720p”的回复格式，完成消息归属绑定后再自动回复，避免路由未确认时卡住。\n• 改进豆包原片查询等待与重试，避免页面目录暂未刷新时一直等待；保留任务与原片校验，不使用预览流代替原片。\n• 更新保留原有账号、授权、配置、缓存和任务记录；插件安装后需重启字字动画。",
+  "updated_at": "2026-10-14 17:00:09"
 }

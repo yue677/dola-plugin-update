@@ -1,12 +1,12 @@
 {
-  "version": "0.9.73",
+  "version": "0.9.74",
   "plugin_id": "dola_doubao_auto_plugin",
   "name": "Anne自动化插件",
-  "url": "https://raw.githubusercontent.com/yue677/dola-plugin-update/main/releases/AnnePlugin-0.9.73.zip",
-  "zip_url": "https://raw.githubusercontent.com/yue677/dola-plugin-update/main/releases/AnnePlugin-0.9.73.zip",
-  "sha256": "f172c6aeeca182d86d1835ddd47be68ad3249a4f1d9d64e3ea909303d54ead01",
-  "size": 189882,
+  "url": "https://raw.githubusercontent.com/yue677/dola-plugin-update/main/releases/AnnePlugin-0.9.74.zip",
+  "zip_url": "https://raw.githubusercontent.com/yue677/dola-plugin-update/main/releases/AnnePlugin-0.9.74.zip",
+  "sha256": "91ef5ac474911a5fe15857712c44ec495da9bb2cc9217ddc1cf30e5e6bd8e308",
+  "size": 202979,
   "force": false,
-  "notes": "• 1 额度提交：2.0 那条现在按 1 额度计费（30 秒档），一个号每天 4 额度能连出 4 条，不再跑一条就把号跳过。面板模型改名为「Seedance 2.0 额度1 / Seedance 2.0 额度3」，选额度1 时长自动锁 30 秒，选额度3 自动锁 15 秒，避免选错档位多花额度。\n• 视频按钮只点一次：那个入口是开关，之前超时会重复点，导致点进去又退出来；现在只点一次，并支持入口收在 More 菜单里的情况（自动点开 More 再点里面的 Create Videos）。\n• 参数全部走提交请求，不再点页面上的模型 / 时长 / 比例控件：点模型入口容易点到旁边的“…”菜单，点开就回不来了；现在只写请求，参数不符会在出站时拦住，不发错误参数的任务。\n• Dola 回“让你选 / 让你回复”这类不算回执的答复时（要选 A/B、说超过 15 秒要压缩、问你是否继续等，中英文都覆盖），直接新建对话原样重提，最多 3 次，还不行就换号，不再傻等到超时。\n• 回执写“You have 0 video credits left”时判定为当天额度用完，直接换号，不再新建对话重试（那种重试也出不来）。\n• 任务对话白屏超过 3 分钟自动新建对话原样重提，不再干等一两个小时。\n• 拆两段的任务里第一段成功、第二段失败时，只把成功那条下载回来并正常完成，不再整单失败把成片丢掉。\n• 账号面板每个号显示剩余额度（从 Dola 回复里读），跑过的号会显示“剩余 N 额度”。\n• 更新保留账号、授权、配置和任务记录；插件安装后需重启字字动画。",
-  "updated_at": "2026-10-19 00:25:13"
+  "notes": "• 一次弹窗两处都更新：插件更新包现在带上工作台补丁，装插件时会把工作台里那两个文件（desktop_dola_video.py / desktop_dola_duration.js）一起替换掉，并各自留一份 .bak 备份，不再需要手动复制。只动这两个白名单文件，工作台的授权、多开、界面文件一律不碰；找不到工作台目录时自动跳过，不影响插件安装。装完重启 Anne 工作台 + 字字动画。\n• 1 额度提交：2.0 那条按 1 额度计费（30 秒档），一个号每天 4 额度能连出 4 条。面板模型为「Seedance 2.0 额度1 / Seedance 2.0 额度3」，选额度1 时长自动锁 30 秒，选额度3 自动锁 15 秒。\n• 视频按钮只点一次（那个入口是开关，重复点会点进去又退出来），并支持入口收在 More 菜单里的情况。\n• 参数全部走提交请求，不再点页面上的模型 / 时长 / 比例控件；出站回读核对，不符就不提交。\n• Dola 回“让你选 / 让你回复”这类不算回执的答复时（要选 A/B、说超过 15 秒要压缩、问是否继续等，中英文都覆盖），直接新建对话原样重提，最多 3 次，还不行就换号。\n• 回执写“You have 0 video credits left”时判定为当天额度用完，直接换号，不再新建对话重试。\n• 任务对话白屏超过 3 分钟自动新建对话原样重提，不再干等一两个小时。\n• 拆两段的任务里第一段成功、第二段失败时，只把成功那条下载回来并正常完成。\n• 账号面板每个号显示剩余额度（从 Dola 回复里读）。\n• 更新保留账号、授权、配置和任务记录。",
+  "updated_at": "2026-10-19 00:45:23"
 }

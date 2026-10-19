@@ -1,12 +1,12 @@
 {
-  "version": "0.9.74",
+  "version": "0.9.75",
   "plugin_id": "dola_doubao_auto_plugin",
   "name": "Anne自动化插件",
-  "url": "https://raw.githubusercontent.com/yue677/dola-plugin-update/main/releases/AnnePlugin-0.9.74.zip",
-  "zip_url": "https://raw.githubusercontent.com/yue677/dola-plugin-update/main/releases/AnnePlugin-0.9.74.zip",
-  "sha256": "91ef5ac474911a5fe15857712c44ec495da9bb2cc9217ddc1cf30e5e6bd8e308",
-  "size": 202979,
+  "url": "https://raw.githubusercontent.com/yue677/dola-plugin-update/main/releases/AnnePlugin-0.9.75.zip",
+  "zip_url": "https://raw.githubusercontent.com/yue677/dola-plugin-update/main/releases/AnnePlugin-0.9.75.zip",
+  "sha256": "66e2defab42bb483756c49eae5e87c0c1c69ff3d868f12f4947892259c2db80b",
+  "size": 205790,
   "force": false,
-  "notes": "• 一次弹窗两处都更新：插件更新包现在带上工作台补丁，装插件时会把工作台里那两个文件（desktop_dola_video.py / desktop_dola_duration.js）一起替换掉，并各自留一份 .bak 备份，不再需要手动复制。只动这两个白名单文件，工作台的授权、多开、界面文件一律不碰；找不到工作台目录时自动跳过，不影响插件安装。装完重启 Anne 工作台 + 字字动画。\n• 1 额度提交：2.0 那条按 1 额度计费（30 秒档），一个号每天 4 额度能连出 4 条。面板模型为「Seedance 2.0 额度1 / Seedance 2.0 额度3」，选额度1 时长自动锁 30 秒，选额度3 自动锁 15 秒。\n• 视频按钮只点一次（那个入口是开关，重复点会点进去又退出来），并支持入口收在 More 菜单里的情况。\n• 参数全部走提交请求，不再点页面上的模型 / 时长 / 比例控件；出站回读核对，不符就不提交。\n• Dola 回“让你选 / 让你回复”这类不算回执的答复时（要选 A/B、说超过 15 秒要压缩、问是否继续等，中英文都覆盖），直接新建对话原样重提，最多 3 次，还不行就换号。\n• 回执写“You have 0 video credits left”时判定为当天额度用完，直接换号，不再新建对话重试。\n• 任务对话白屏超过 3 分钟自动新建对话原样重提，不再干等一两个小时。\n• 拆两段的任务里第一段成功、第二段失败时，只把成功那条下载回来并正常完成。\n• 账号面板每个号显示剩余额度（从 Dola 回复里读）。\n• 更新保留账号、授权、配置和任务记录。",
-  "updated_at": "2026-10-19 00:45:23"
+  "notes": "• 新版本客户端刚打开时没有输入控件（官方问题，提示词框和 Create Videos 都不渲染）：插件现在会自动先点侧边栏的 Main chat，再点 New Chat，把输入区唤出来再继续，不再把这种账号判成打不开而跳过。空白对话判定失败时也会先唤醒再重试。\n• 移除客户端版本守护：不再把官方客户端回退到固定版本，官方更新可以正常进来。\n• 一次弹窗两处都更新：更新包带工作台补丁，装插件时把工作台那两个文件（desktop_dola_video.py / desktop_dola_duration.js）一起替换，各留 .bak 备份；只动这两个白名单文件，找不到工作台目录时自动跳过。装完重启 Anne 工作台 + 字字动画。\n• 1 额度提交：2.0 那条按 1 额度计费（30 秒档），一个号每天 4 额度能连出 4 条。面板模型为「Seedance 2.0 额度1 / Seedance 2.0 额度3」，选额度1 时长自动锁 30 秒，选额度3 自动锁 15 秒。\n• 视频按钮只点一次（那个入口是开关，重复点会点进去又退出来），并支持入口收在 More 菜单里的情况。\n• 参数全部走提交请求，不再点页面上的模型 / 时长 / 比例控件；出站回读核对，不符就不提交。\n• Dola 回“让你选 / 让你回复”这类不算回执的答复时（要选 A/B、说超过 15 秒要压缩、问是否继续等，中英文都覆盖），直接新建对话原样重提，最多 3 次，还不行就换号。\n• 回执写“You have 0 video credits left”时判定为当天额度用完，直接换号；任务对话白屏超过 3 分钟自动重提。\n• 拆两段的任务里第一段成功、第二段失败时，只把成功那条下载回来并正常完成。\n• 账号面板每个号显示剩余额度（从 Dola 回复里读）。\n• 更新保留账号、授权、配置和任务记录。",
+  "updated_at": "2026-10-19 11:04:12"
 }

@@ -1,12 +1,12 @@
 {
-  "version": "0.9.77",
+  "version": "0.9.78",
   "plugin_id": "dola_doubao_auto_plugin",
   "name": "Anne自动化插件",
-  "url": "https://raw.githubusercontent.com/yue677/dola-plugin-update/main/releases/AnnePlugin-0.9.77.zip",
-  "zip_url": "https://raw.githubusercontent.com/yue677/dola-plugin-update/main/releases/AnnePlugin-0.9.77.zip",
-  "sha256": "1104eebbf57c9ca1bb9eb1f9820adcb4860bcab0179ecfcfe2772a130ab80720",
-  "size": 205819,
+  "url": "https://raw.githubusercontent.com/yue677/dola-plugin-update/main/releases/AnnePlugin-0.9.78.zip",
+  "zip_url": "https://raw.githubusercontent.com/yue677/dola-plugin-update/main/releases/AnnePlugin-0.9.78.zip",
+  "sha256": "49b0ad28d922b21c705fbdc6f41dce0f75312c238c86035407dfc849393c7a16",
+  "size": 205984,
   "force": false,
-  "notes": "• 输入控件唤醒只点 New Chat：之前先点 Main chat 会进入旧对话，插件检测到该对话已经提交过任务，出于保护直接失败；现在只点侧边栏的 New Chat，不会碰到任何旧对话。\n• 掉线立刻换号：客户端显示 Log In 按钮后连续确认两次（约 1 秒）就切号，不再等 30 秒。\n• 一次弹窗两处都更新：更新包带工作台补丁（只动白名单两个文件 + 留备份），装完重启 Anne 工作台 + 字字动画。\n• 1 额度提交：2.0 那条按 1 额度计费（30 秒档），一个号每天 4 额度能连出 4 条；面板为「Seedance 2.0 额度1 / Seedance 2.0 额度3」，时长自动锁定 30 / 15 秒。\n• 视频按钮只点一次（入口是开关），支持入口收在 More 菜单里的情况。\n• 参数全部走提交请求，不再点页面上的模型 / 时长 / 比例控件；出站回读核对，不符就不提交。\n• Dola 回“让你选 / 让你回复”不算回执时直接新建对话原样重提，最多 3 次，还不行就换号。\n• 回执写“You have 0 video credits left”判定当天额度用完直接换号；白屏超过 3 分钟自动重提；拆两段时第一段成功第二段失败只下成功那条。\n• 账号面板每个号显示剩余额度；移除客户端版本守护；更新保留账号、授权、配置和任务记录。",
-  "updated_at": "2026-10-19 11:26:17"
+  "notes": "• 输入区唤醒顺序固定：新版客户端刚打开时完全没有控件，现在先点侧边栏 Main chat 让控件渲染出来，然后【一定】再点 New Chat 回到新的空白对话，再上传素材。不会停在旧对话里，也就不会再触发“原对话已点击发送”的保护。\n• 掉线立刻换号：客户端显示 Log In 按钮后连续确认两次（约 1 秒）就切号，不再等 30 秒。\n• 一次弹窗两处都更新：更新包带工作台补丁（只动白名单两个文件并留备份），装完重启 Anne 工作台 + 字字动画。\n• 1 额度提交：2.0 那条按 1 额度计费（30 秒档），一个号每天 4 额度能连出 4 条；面板为「Seedance 2.0 额度1 / Seedance 2.0 额度3」，时长自动锁定 30 / 15 秒。\n• 视频按钮只点一次（入口是开关），支持入口收在 More 菜单里的情况。\n• 参数全部走提交请求，不再点页面上的模型 / 时长 / 比例控件；出站回读核对，不符就不提交。\n• Dola 回“让你选 / 让你回复”不算回执时直接新建对话原样重提，最多 3 次，还不行就换号。\n• 回执写“You have 0 video credits left”判定当天额度用完直接换号；白屏超过 3 分钟自动重提；拆两段时第一段成功第二段失败只下成功那条。\n• 账号面板每个号显示剩余额度；移除客户端版本守护；更新保留账号、授权、配置和任务记录。",
+  "updated_at": "2026-10-19 11:27:39"
 }

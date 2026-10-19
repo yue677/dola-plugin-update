@@ -2,11 +2,11 @@
   "version": "0.9.82",
   "plugin_id": "dola_doubao_auto_plugin",
   "name": "Anne自动化插件",
-  "url": "https://raw.githubusercontent.com/yue677/dola-plugin-update/main/releases/AnnePlugin-0.9.82.zip",
-  "zip_url": "https://raw.githubusercontent.com/yue677/dola-plugin-update/main/releases/AnnePlugin-0.9.82.zip",
+  "url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.82/dola_doubao_auto_plugin-v0.9.82.zip",
+  "zip_url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.82/dola_doubao_auto_plugin-v0.9.82.zip",
   "sha256": "94aa75b4babf1de0ad2546499b2e81bcd7cbf09820249b4453f3e894d24b3c8b",
   "size": 207410,
   "force": false,
-  "notes": "• 修复误判：Dola 已经开始生成（回复里有“in 15 minutes / You have N video credits left today / 将为您生成”）时，不再被当成“只回复了生成计划”而重提一次。页面里混着提示词和旧标题造成的字面误命中，已由回执铁证覆盖。只有真正让你选 A/B、或说超过 15 秒要压缩这类“没有回执”的答复才重提。\n• 输入区唤醒顺序固定：新版客户端刚打开时没有控件，先点侧边栏 Main chat 让控件渲染，再【一定】点 New Chat 回到空白对话。\n• 掉线立刻换号：客户端显示 Log In 后连续确认两次（约 1 秒）就切号，不再等 30 秒。\n• 一次弹窗两处都更新：更新包带工作台补丁（只动白名单两个文件并留备份），装完重启 Anne 工作台 + 字字动画。\n• 1 额度提交（仅 Dola）：额度1 走 30 秒档按 1 额度计费、每号 4 条；额度3 锁 15 秒、每号 1 条；2.5 每号 2 条。豆包保持原规则（2.5 每号 1 条、2.0/2.0 Fast 每号 2 条），名称与额度按平台分开显示。\n• 视频按钮只点一次（入口是开关），支持入口收在 More 菜单里的情况；参数全部走提交请求，出站回读核对。\n• 回执写“You have 0 video credits left”判定当天额度用完直接换号；白屏超过 3 分钟自动重提；拆两段时第一段成功第二段失败只下成功那条；账号面板每个号显示剩余额度。\n• 移除客户端版本守护；更新保留账号、授权、配置和任务记录。",
-  "updated_at": "2026-10-19 22:16:58"
+  "notes": "• 修复 Dola 初次进入聊天页时输入框下方控件缺失：自动依次进入 Main chat 和 New Chat，确认控件恢复后继续任务。\n• 适配 Dola 新版“＋ → Add image”两层选图入口，恢复字字联动自动上传图片；一批参考图只设置一次文件。\n• 保留附件身份、上传完成与预处理/审核检查；选择或准备结果未确认时保留草稿，不重复上传或重发。\n• 保留账号轮转、额度显示、手动恢复调度及已有任务记录；更新保留账号、授权和配置，安装后重启字字动画。",
+  "updated_at": "2026-10-19 22:17:32"
 }

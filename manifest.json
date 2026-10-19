@@ -1,12 +1,12 @@
 {
-  "version": "0.9.80",
+  "version": "0.9.81",
   "plugin_id": "dola_doubao_auto_plugin",
   "name": "Anne自动化插件",
-  "url": "https://raw.githubusercontent.com/yue677/dola-plugin-update/main/releases/AnnePlugin-0.9.80.zip",
-  "zip_url": "https://raw.githubusercontent.com/yue677/dola-plugin-update/main/releases/AnnePlugin-0.9.80.zip",
-  "sha256": "48b6dfcb3c38e4f98949f89d82baedacfef5d7bfb6fe36157c9461dd76610213",
-  "size": 206731,
+  "url": "https://raw.githubusercontent.com/yue677/dola-plugin-update/main/releases/AnnePlugin-0.9.81.zip",
+  "zip_url": "https://raw.githubusercontent.com/yue677/dola-plugin-update/main/releases/AnnePlugin-0.9.81.zip",
+  "sha256": "53c875e313b7324e843ffcee3b941433841eed9bd35aff6d5f5287ff71afd62b",
+  "size": 207183,
   "force": false,
-  "notes": "• Dola 与豆包彻底分开：模型名称、额度单价、每号可跑条数都按平台各自计算。Dola 下面显示「Seedance 2.0 额度1 / Seedance 2.0 额度3」，豆包下面恢复「Seedance 2.0 Fast / Seedance 2.0」。\n• Dola：额度1（2.0 Fast + 30 秒）= 1 额度、每号 4 条；额度3（2.0 + 15 秒）= 3 额度、每号 1 条；2.5 = 2 额度、每号 2 条。\n• 豆包：保持原来的 2.0 Fast = 3 额度、每号 1 条；2.5 = 2 额度、每号 2 条，不受 Dola 的 1 额度规则影响。\n• 输入区唤醒顺序固定：新版客户端刚打开时没有控件，先点侧边栏 Main chat 让控件渲染，再【一定】点 New Chat 回到空白对话，不会停在旧对话里。\n• 掉线立刻换号：客户端显示 Log In 后连续确认两次（约 1 秒）就切号，不再等 30 秒。\n• 一次弹窗两处都更新：更新包带工作台补丁（只动白名单两个文件并留备份），装完重启 Anne 工作台 + 字字动画。\n• 视频按钮只点一次（入口是开关），支持入口收在 More 菜单里的情况；参数全部走提交请求，出站回读核对。\n• Dola 回“让你选 / 让你回复”不算回执时直接新建对话原样重提，最多 3 次，还不行就换号。\n• 回执写“You have 0 video credits left”判定当天额度用完直接换号；白屏超过 3 分钟自动重提；拆两段时第一段成功第二段失败只下成功那条；账号面板每个号显示剩余额度。\n• 移除客户端版本守护；更新保留账号、授权、配置和任务记录。",
-  "updated_at": "2026-10-19 12:15:31"
+  "notes": "• 修复 Dola 初次进入聊天页时输入框下方控件缺失：自动依次进入 Main chat 和 New Chat，确认控件恢复后继续任务。\n• 适配 Dola 新版“＋ → Add image”两层选图入口，恢复字字联动自动上传图片；一批参考图只设置一次文件。\n• 保留附件身份、上传完成与预处理/审核检查；选择或准备结果未确认时保留草稿，不重复上传或重发。\n• 保留账号轮转、额度显示、手动恢复调度及已有任务记录；更新保留账号、授权和配置，安装后重启字字动画。",
+  "updated_at": "2026-10-19 14:03:30"
 }

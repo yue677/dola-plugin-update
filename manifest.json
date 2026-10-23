@@ -1,12 +1,12 @@
 {
-  "version": "0.9.85",
+  "version": "0.9.87",
   "plugin_id": "dola_doubao_auto_plugin",
   "name": "Anne自动化插件",
-  "url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.85/dola_doubao_auto_plugin-v0.9.85.zip",
-  "zip_url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.85/dola_doubao_auto_plugin-v0.9.85.zip",
-  "sha256": "5f7fa0310b938b6f8415b9636753033075c0d2051b9081e0734d736330cab88b",
-  "size": 197581,
+  "url": "https://raw.githubusercontent.com/yue677/dola-plugin-update/main/releases/AnnePlugin-0.9.87.zip",
+  "zip_url": "https://raw.githubusercontent.com/yue677/dola-plugin-update/main/releases/AnnePlugin-0.9.87.zip",
+  "sha256": "63b1e0371f8fd02292919016f0505455b22006a259be423c69d4fa0a58ab7c7e",
+  "size": 211704,
   "force": false,
-  "notes": "• 修复草稿较多时Main chat被侧栏滚动区域裁住，初始输入控件恢复失败的问题。\n• 唯一定位Main chat后按需滚动到可见位置并点击，再进入New Chat；兼容草稿少、已经可见的账号。\n• 保留现有草稿、附件和任务；保留上传与等待优化、0.9.84加载修复及豆包原片下载修复，更新后重启字字动画。",
-  "updated_at": "2026-10-21 12:49:45"
+  "notes": "• 豆包发送确认：输入框一次性查不到时改为【重试 1 次（各 1 秒）】✓ 修掉回复结束后偶尔报「输入框未就绪，尚未发送」的问题 ✓\n• 豆包直连下载：本地代理异常时原片下载改走直连 ✓ 超时/证书/中断会写明原因 ✓\n• 额度1 = Seedance 2.0 Fast + 30 秒 ✓ 额度3 = Seedance 2.0 + 15 秒 ✓ 参数后台写入，不点页面控件 ✓\n• Dola：肖像保护 → 新建对话原样重提 3 次后切号 ✓；确认/选方案/选时长类回复 → 新建重提 ✓\n• Dola：回执含「in N minutes / 剩余 M 额度 / daily free credits」即视为已入队，不再重复提交 ✓\n• Dola：Dola Plus 提示出现 2 次直接切号 ✓\n• 工作台账号面板新增【重置所有调度】：清零今日已提交计数与异常标记 ✓\n• 移除客户端版本守护；更新保留账号、授权、配置与任务记录 ✓",
+  "updated_at": "2026-10-23 12:28:14"
 }

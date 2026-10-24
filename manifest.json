@@ -1,12 +1,12 @@
 {
-  "version": "0.9.87",
+  "version": "0.9.92",
   "plugin_id": "dola_doubao_auto_plugin",
   "name": "Anne自动化插件",
-  "url": "https://raw.githubusercontent.com/yue677/dola-plugin-update/main/releases/AnnePlugin-0.9.87.zip",
-  "zip_url": "https://raw.githubusercontent.com/yue677/dola-plugin-update/main/releases/AnnePlugin-0.9.87.zip",
-  "sha256": "63b1e0371f8fd02292919016f0505455b22006a259be423c69d4fa0a58ab7c7e",
-  "size": 211704,
+  "url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.92/dola_doubao_auto_plugin-v0.9.92.zip",
+  "zip_url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.92/dola_doubao_auto_plugin-v0.9.92.zip",
+  "sha256": "da704479e284083edc8ce007329d1895c92800c6728b8b04fbb0bb49678b892c",
+  "size": 206553,
   "force": false,
-  "notes": "• 豆包发送确认：输入框一次性查不到时改为【重试 1 次（各 1 秒）】✓ 修掉回复结束后偶尔报「输入框未就绪，尚未发送」的问题 ✓\n• 豆包直连下载：本地代理异常时原片下载改走直连 ✓ 超时/证书/中断会写明原因 ✓\n• 额度1 = Seedance 2.0 Fast + 30 秒 ✓ 额度3 = Seedance 2.0 + 15 秒 ✓ 参数后台写入，不点页面控件 ✓\n• Dola：肖像保护 → 新建对话原样重提 3 次后切号 ✓；确认/选方案/选时长类回复 → 新建重提 ✓\n• Dola：回执含「in N minutes / 剩余 M 额度 / daily free credits」即视为已入队，不再重复提交 ✓\n• Dola：Dola Plus 提示出现 2 次直接切号 ✓\n• 工作台账号面板新增【重置所有调度】：清零今日已提交计数与异常标记 ✓\n• 移除客户端版本守护；更新保留账号、授权、配置与任务记录 ✓",
-  "updated_at": "2026-10-23 12:28:14"
+  "notes": "• 修复分享插件误显示“本机同步”的发布问题，分享版保留联网更新检测与新版弹窗；不包含本机开发版策略、授权或工作台补丁。\n• 新增 Dola 专家模式：首次 Main chat → New Chat → Pro → Cloud computer，再填写原提示词、上传素材并发送；按本次要求暂不自动选择 Skills / Creative video。\n• 兼容中英文上传入口及 Upload File or Image，保留附件完成、提示词、原对话和发送前核验；失败时保留草稿。\n• 修复专家模式视频卡片已生成却继续等待的问题，按本次对话与新视频身份识别成品，避免误取历史视频。\n• 恢复内容限制提示后的人工处理与原对话保留；更新后完全退出并重开字字动画加载。",
+  "updated_at": "2026-10-24 14:51:19"
 }

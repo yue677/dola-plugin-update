@@ -1,12 +1,12 @@
 {
-  "version": "0.9.100",
+  "version": "0.9.103",
   "plugin_id": "dola_doubao_auto_plugin",
   "name": "Anne自动化插件",
-  "url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.100/dola_doubao_auto_plugin-v0.9.100.zip",
-  "zip_url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.100/dola_doubao_auto_plugin-v0.9.100.zip",
-  "sha256": "4405eb90c9a44a8bb953886dcb307e6aac1c06fdb360d5fa8ab5c8b49cf17aa7",
-  "size": 222600,
+  "url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.103/dola_doubao_auto_plugin-v0.9.103.zip",
+  "zip_url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.103/dola_doubao_auto_plugin-v0.9.103.zip",
+  "sha256": "456c5e20cbf98f8424dfe391fa0b4860328b77502b508d6de5bc3fa874fdd1eb",
+  "size": 226849,
   "force": false,
-  "notes": "• 新增独立的 Seedance 2.0 专家模式(4条视频)，保留原单条专家模式。逐个提交四个分镜时立即准备各自图文草稿，四份全部核验后依次发送，并按各自任务取片回填。\n• 修复四草稿首条已发出却未确认送达的问题，按当前对话的新用户消息完整内容确认；保留发送前持久防重，避免重复提交。\n• 四条模式不再强制修改或锁住全局并发设置；普通模型保持原并发排队规则，四条组在并发设为2时也能收齐草稿。\n• 恢复专家流程的 Skills → Creative video 选择，继续使用 Pro、Cloud computer、原提示词和附件核验。\n• 专家模式读取配套工作台的七天额度标记；支持明确指定起始账号，平台实际额度不足时按原规则切号。请先更新并重开工作台0.2.68。\n• 只有播放直链、尚未取得可验证无水印原片时保留任务待人工核对，不把预览片当作原片回填，不自动重复生成。分享版继续使用联网更新弹窗。",
-  "updated_at": "2026-10-26 08:18:00"
+  "notes": "• 完善独立的 Seedance 2.0 专家模式(4条视频)：逐份准备并保存四个分镜的独立图文草稿，全部核验后依次发送，按各自分镜任务回填。\n• 修复四条全部提交后反复切换对话的问题：等待时读取准确原生侧栏的结束或未读提示，提示稳定后进入对应原对话核验成片并下载；不循环刷新。\n• 兼容红色未读结果提示先出现、原生运行字段仍未更新的情况；等待进度显示本组已回收N/4。只有四份全部下载成功后才关闭该账号窗口，部分未完成时保留。\n• 修复选择起始账号或强制指定账号后仍读取旧编号的问题：起止编号和强制开关一起保存，后台回读一致后才确认，避免旧宿主参数覆盖新选择；设置失败时拦住新的Dola任务。\n• 保留原单条专家模式、其他模型与全局分镜并发规则；专家流程继续核对Pro、Cloud computer、Skills → Creative video与图文附件，已有任务沿原账号和对话继续。\n• 请配套使用已发布的工作台0.2.68。分享版保留正式授权及联网更新弹窗，更新包不包含个人账号、配置、草稿或登录资料；任务结束后完全退出并重开字字动画。\n• 只有播放直链、尚未取得可验证无水印原片的结果仍保留原任务待人工核对，不把预览片当原片回填，不自动重复生成。",
+  "updated_at": "2026-10-26 18:51:19"
 }

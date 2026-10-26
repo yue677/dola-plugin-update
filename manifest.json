@@ -1,12 +1,12 @@
 {
-  "version": "0.9.92",
+  "version": "0.9.100",
   "plugin_id": "dola_doubao_auto_plugin",
   "name": "Anne自动化插件",
-  "url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.92/dola_doubao_auto_plugin-v0.9.92.zip",
-  "zip_url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.92/dola_doubao_auto_plugin-v0.9.92.zip",
-  "sha256": "da704479e284083edc8ce007329d1895c92800c6728b8b04fbb0bb49678b892c",
-  "size": 206553,
+  "url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.100/dola_doubao_auto_plugin-v0.9.100.zip",
+  "zip_url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.100/dola_doubao_auto_plugin-v0.9.100.zip",
+  "sha256": "4405eb90c9a44a8bb953886dcb307e6aac1c06fdb360d5fa8ab5c8b49cf17aa7",
+  "size": 222600,
   "force": false,
-  "notes": "• 修复分享插件误显示“本机同步”的发布问题，分享版保留联网更新检测与新版弹窗；不包含本机开发版策略、授权或工作台补丁。\n• 新增 Dola 专家模式：首次 Main chat → New Chat → Pro → Cloud computer，再填写原提示词、上传素材并发送；按本次要求暂不自动选择 Skills / Creative video。\n• 兼容中英文上传入口及 Upload File or Image，保留附件完成、提示词、原对话和发送前核验；失败时保留草稿。\n• 修复专家模式视频卡片已生成却继续等待的问题，按本次对话与新视频身份识别成品，避免误取历史视频。\n• 恢复内容限制提示后的人工处理与原对话保留；更新后完全退出并重开字字动画加载。",
-  "updated_at": "2026-10-24 14:51:19"
+  "notes": "• 新增独立的 Seedance 2.0 专家模式(4条视频)，保留原单条专家模式。逐个提交四个分镜时立即准备各自图文草稿，四份全部核验后依次发送，并按各自任务取片回填。\n• 修复四草稿首条已发出却未确认送达的问题，按当前对话的新用户消息完整内容确认；保留发送前持久防重，避免重复提交。\n• 四条模式不再强制修改或锁住全局并发设置；普通模型保持原并发排队规则，四条组在并发设为2时也能收齐草稿。\n• 恢复专家流程的 Skills → Creative video 选择，继续使用 Pro、Cloud computer、原提示词和附件核验。\n• 专家模式读取配套工作台的七天额度标记；支持明确指定起始账号，平台实际额度不足时按原规则切号。请先更新并重开工作台0.2.68。\n• 只有播放直链、尚未取得可验证无水印原片时保留任务待人工核对，不把预览片当作原片回填，不自动重复生成。分享版继续使用联网更新弹窗。",
+  "updated_at": "2026-10-26 08:18:00"
 }

@@ -1,12 +1,12 @@
 {
-  "version": "0.9.113",
+  "version": "0.9.114",
   "plugin_id": "dola_doubao_auto_plugin",
   "name": "Anne自动化插件",
-  "url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.113/dola_doubao_auto_plugin-v0.9.113.zip",
-  "zip_url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.113/dola_doubao_auto_plugin-v0.9.113.zip",
-  "sha256": "0d7e61f5fd5c8728b79d327b369fc80f5c163b6e6903956044da7974313b6190",
-  "size": 243889,
+  "url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.114/dola_doubao_auto_plugin-v0.9.114.zip",
+  "zip_url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.114/dola_doubao_auto_plugin-v0.9.114.zip",
+  "sha256": "6bfa78875be5a209ef24f1a632a6d9634dc2eb069fe3eacbfd25545d4ca18f6e",
+  "size": 245817,
   "force": false,
-  "notes": "• 四视频模式未完成任务按同一项目和分镜绑定；在字字更换角色图片、图片路径或当前提示词，不再因此拆开原草稿或已发送任务。\n• 续接保留已存草稿原来的提示词、图片和音频；原任务的成片回到对应分镜，不因换图重复上传或重提生成。已完成任务之后的新一轮使用当前素材。\n• 同分镜存在多份历史草稿时，核对真实宿主轮次后接回最新任务；继续核对项目、分镜、所选账号、原生草稿或对话、上传就绪状态和发送锁。\n• 保持四份就绪后逐条发送、失败不自动重提和独立回填。单条专家模式、豆包、全局并发和周额度规则保持。任务结束后正常退出并重开字字动画生效。",
-  "updated_at": "2026-10-29 09:21:34"
+  "notes": "• 修复四视频模式重新生成时停在寻找已不存在的旧草稿：原草稿存在则续接，完整读取侧栏并确认不存在后，按本次提示词、图片和音频新建独立草稿。\n• 新建使用真实的新宿主调用并保留旧记录；草稿列表隐藏、加载中或身份不明时保留内容，不把未读到误判为已删除。恢复失败的错误记录另存，旧分镜绑定保留。\n• 四份准备好后仍依次发送并分别回填。已发送任务、发送锁及发送阶段的失败不自动重提；单条专家模式、豆包、账号选择、周额度和全局并发保持。\n• 正式分享版保留授权和联网更新弹窗，不含本机任务与配置。保存项目并正常退出、重开字字动画后生效。",
+  "updated_at": "2026-10-29 11:26:48"
 }

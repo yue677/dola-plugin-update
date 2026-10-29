@@ -1,12 +1,12 @@
 {
-  "version": "0.9.115",
+  "version": "0.9.116",
   "plugin_id": "dola_doubao_auto_plugin",
   "name": "Anne自动化插件",
-  "url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.115/dola_doubao_auto_plugin-v0.9.115.zip",
-  "zip_url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.115/dola_doubao_auto_plugin-v0.9.115.zip",
-  "sha256": "82750d88cd904f66a59bdcddf66bfec26260f6b51bad54db0db1175f4f22645a",
-  "size": 246244,
+  "url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.116/dola_doubao_auto_plugin-v0.9.116.zip",
+  "zip_url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.116/dola_doubao_auto_plugin-v0.9.116.zip",
+  "sha256": "f169c2874cf60c380d732ed0a13639bf3c4d2f5fa68d23ef7f79f35d6c455e6a",
+  "size": 247759,
   "force": false,
-  "notes": "• 修复四视频模式左侧草稿列表已经展开，仍提示“草稿列表尚未完整读取”的问题：正确区分Drafts标题按钮和实际草稿，避免条目数量误判。\n• 保留草稿完整性与身份检查。加载中、隐藏、折叠、虚拟化或身份不明的条目仍会保留内容，不误判草稿已删除。\n• 原草稿存在则按原分镜续接；确认缺失的未发送草稿继续按本次提示词、图片和音频新建。四份就绪后仍逐条发送，已发送任务和发送边界不自动重提。\n• 保留分享版授权和联网更新弹窗，不含个人配置、账号或草稿。任务结束后保存项目，正常退出并重开字字动画生效；工作台无需重启。",
-  "updated_at": "2026-10-29 15:58:06"
+  "notes": "• 修复四视频模式明确回复生成失败、拒绝生成或内容安全拦截后仍持续等待的问题；识别后结束对应分镜等待，其他分镜继续回收。\n• 识别侧栏原生转圈状态：转圈时继续等，停止后核验对应对话的成片或失败回复；圈暂时隐藏、未加载或身份不明时不误判失败。\n• 失败日志和传回字字的错误改为账号、分镜及简短原因。保留原草稿、原对话和发送记录，不自动重提、不换号重复发送；已发送任务接回时同样识别明确失败。\n• 保留四份就绪后逐条发送、独立回填、账号与额度规则，以及分享版授权和更新弹窗。任务结束后保存项目，安装更新并完全退出、重开字字动画生效；工作台无需重启。",
+  "updated_at": "2026-10-29 17:14:21"
 }

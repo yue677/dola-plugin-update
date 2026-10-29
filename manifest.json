@@ -1,12 +1,12 @@
 {
-  "version": "0.9.112",
+  "version": "0.9.113",
   "plugin_id": "dola_doubao_auto_plugin",
   "name": "Anne自动化插件",
-  "url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.112/dola_doubao_auto_plugin-v0.9.112.zip",
-  "zip_url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.112/dola_doubao_auto_plugin-v0.9.112.zip",
-  "sha256": "a085b233090706667ee736b0b68fc2753b1f70afb4c56dc80e3f3805cba655c1",
-  "size": 243077,
+  "url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.113/dola_doubao_auto_plugin-v0.9.113.zip",
+  "zip_url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.113/dola_doubao_auto_plugin-v0.9.113.zip",
+  "sha256": "0d7e61f5fd5c8728b79d327b369fc80f5c163b6e6903956044da7974313b6190",
+  "size": 243889,
   "force": false,
-  "notes": "• 兼容 Dola 视频技能的新名称 Generate Videos，同时保留 Creative video 和创意视频的识别，修复专家模式准备分镜时停在技能菜单的问题。\n• 继续核对输入区真实技能标记；菜单高亮、普通提示词或其他设计与文档技能不算选中，未确认时保留草稿且不发送。\n• 四条模式恢复旧草稿时兼容新旧技能名称，保留完整提示词、图片音频及原生草稿标识核验，避免重复上传或发送已有分镜。\n• 保持 Pro、Cloud computer、四份草稿齐备后依次发送、失败不自动重提及各分镜独立回填规则。正式分享授权与联网更新弹窗保留，包内不含本机配置或任务。任务结束后完全退出并重开字字动画。",
-  "updated_at": "2026-10-28 22:36:59"
+  "notes": "• 四视频模式未完成任务按同一项目和分镜绑定；在字字更换角色图片、图片路径或当前提示词，不再因此拆开原草稿或已发送任务。\n• 续接保留已存草稿原来的提示词、图片和音频；原任务的成片回到对应分镜，不因换图重复上传或重提生成。已完成任务之后的新一轮使用当前素材。\n• 同分镜存在多份历史草稿时，核对真实宿主轮次后接回最新任务；继续核对项目、分镜、所选账号、原生草稿或对话、上传就绪状态和发送锁。\n• 保持四份就绪后逐条发送、失败不自动重提和独立回填。单条专家模式、豆包、全局并发和周额度规则保持。任务结束后正常退出并重开字字动画生效。",
+  "updated_at": "2026-10-29 09:21:34"
 }

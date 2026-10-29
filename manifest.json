@@ -1,12 +1,12 @@
 {
-  "version": "0.9.116",
+  "version": "0.9.119",
   "plugin_id": "dola_doubao_auto_plugin",
   "name": "Anne自动化插件",
-  "url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.116/dola_doubao_auto_plugin-v0.9.116.zip",
-  "zip_url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.116/dola_doubao_auto_plugin-v0.9.116.zip",
-  "sha256": "f169c2874cf60c380d732ed0a13639bf3c4d2f5fa68d23ef7f79f35d6c455e6a",
-  "size": 247759,
+  "url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.119/dola_doubao_auto_plugin-v0.9.119.zip",
+  "zip_url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.119/dola_doubao_auto_plugin-v0.9.119.zip",
+  "sha256": "e5a4136a1cc737e122e1040928c6fe79691933cab94cef381c83ce7994a7120d",
+  "size": 253457,
   "force": false,
-  "notes": "• 修复四视频模式明确回复生成失败、拒绝生成或内容安全拦截后仍持续等待的问题；识别后结束对应分镜等待，其他分镜继续回收。\n• 识别侧栏原生转圈状态：转圈时继续等，停止后核验对应对话的成片或失败回复；圈暂时隐藏、未加载或身份不明时不误判失败。\n• 失败日志和传回字字的错误改为账号、分镜及简短原因。保留原草稿、原对话和发送记录，不自动重提、不换号重复发送；已发送任务接回时同样识别明确失败。\n• 保留四份就绪后逐条发送、独立回填、账号与额度规则，以及分享版授权和更新弹窗。任务结束后保存项目，安装更新并完全退出、重开字字动画生效；工作台无需重启。",
-  "updated_at": "2026-10-29 17:14:21"
+  "notes": "• 仅调整专家模式（4个视频）：本轮新建对话并上传当前提示词和素材，不再查找之前失败的草稿或对话；失败旧草稿可自行删除。\n• 同一账号按点击入队顺序串行准备，上一分镜确认存成草稿后才开始下一份；必须本轮四份草稿全部就绪，才依次发送。\n• 四视频模式按实际成片记账：没有出片的账号失败后仍可使用，任一条实际生成成功即标记已用7天；明确失败及时结束该分镜等待并简短记录账号和原因。\n• 修复首次启动更多菜单重绘导致点击失败、需要再点一次的问题；保持上传、四份齐后发送及其他模式的操作规则。\n• 本版四视频模式需配套 Anne工作台0.2.71或更新版本。请先在任务结束后更新并重开工作台，再更新插件并完全退出、重开字字动画；账号、授权与配置保留。",
+  "updated_at": "2026-10-29 23:40:59"
 }

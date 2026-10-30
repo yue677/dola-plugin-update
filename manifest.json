@@ -1,12 +1,12 @@
 {
-  "version": "0.9.119",
+  "version": "0.9.120",
   "plugin_id": "dola_doubao_auto_plugin",
   "name": "Anne自动化插件",
-  "url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.119/dola_doubao_auto_plugin-v0.9.119.zip",
-  "zip_url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.119/dola_doubao_auto_plugin-v0.9.119.zip",
-  "sha256": "e5a4136a1cc737e122e1040928c6fe79691933cab94cef381c83ce7994a7120d",
-  "size": 253457,
+  "url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.120/dola_doubao_auto_plugin-v0.9.120.zip",
+  "zip_url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.120/dola_doubao_auto_plugin-v0.9.120.zip",
+  "sha256": "abc2c74e99782442311686339b3c157f5ff0fc408b6231d07dcad8dd4d2e5cf5",
+  "size": 254556,
   "force": false,
-  "notes": "• 仅调整专家模式（4个视频）：本轮新建对话并上传当前提示词和素材，不再查找之前失败的草稿或对话；失败旧草稿可自行删除。\n• 同一账号按点击入队顺序串行准备，上一分镜确认存成草稿后才开始下一份；必须本轮四份草稿全部就绪，才依次发送。\n• 四视频模式按实际成片记账：没有出片的账号失败后仍可使用，任一条实际生成成功即标记已用7天；明确失败及时结束该分镜等待并简短记录账号和原因。\n• 修复首次启动更多菜单重绘导致点击失败、需要再点一次的问题；保持上传、四份齐后发送及其他模式的操作规则。\n• 本版四视频模式需配套 Anne工作台0.2.71或更新版本。请先在任务结束后更新并重开工作台，再更新插件并完全退出、重开字字动画；账号、授权与配置保留。",
-  "updated_at": "2026-10-29 23:40:59"
+  "notes": "• 修复专家模式（4个视频）中 Dola 将 Fast / Pro 改名为 Chat / Work 后，提示未确认 Pro 选项、无法开始的问题；兼容新旧界面，已选 Work 时不重复打开模式菜单。\n• 四视频的新建后就绪、准备草稿及发送前检查均兼容 Pro / Work，避免四份草稿就绪后仍被旧 Pro 检查拦住；继续按输入区及其所属弹窗定位控件。\n• 保留同号串行准备、当前提示词和素材新建草稿、四份齐后才发送，以及零片失败可再用、任一实际成片即记已用的规则；普通单条和其他模式保持原行为。\n• 本次仅更新插件，已安装工作台0.2.71无需重复更新；更早工作台请先升至0.2.71。请等当前任务结束，通过“立即更新”或“更新检测”安装，再完全退出并重开字字动画生效。",
+  "updated_at": "2026-10-30 21:42:28"
 }

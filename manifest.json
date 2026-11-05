@@ -1,12 +1,12 @@
 {
-  "version": "0.9.120",
+  "version": "0.9.135",
   "plugin_id": "dola_doubao_auto_plugin",
   "name": "Anne自动化插件",
-  "url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.120/dola_doubao_auto_plugin-v0.9.120.zip",
-  "zip_url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.120/dola_doubao_auto_plugin-v0.9.120.zip",
-  "sha256": "abc2c74e99782442311686339b3c157f5ff0fc408b6231d07dcad8dd4d2e5cf5",
-  "size": 254556,
+  "url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.135/dola_doubao_auto_plugin-v0.9.135.zip",
+  "zip_url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.135/dola_doubao_auto_plugin-v0.9.135.zip",
+  "sha256": "9d52e0b2d230a8fb6ab535a3ef0032aaf31d946e0506a32c2e7039e1b1ec982f",
+  "size": 316578,
   "force": false,
-  "notes": "• 修复专家模式（4个视频）中 Dola 将 Fast / Pro 改名为 Chat / Work 后，提示未确认 Pro 选项、无法开始的问题；兼容新旧界面，已选 Work 时不重复打开模式菜单。\n• 四视频的新建后就绪、准备草稿及发送前检查均兼容 Pro / Work，避免四份草稿就绪后仍被旧 Pro 检查拦住；继续按输入区及其所属弹窗定位控件。\n• 保留同号串行准备、当前提示词和素材新建草稿、四份齐后才发送，以及零片失败可再用、任一实际成片即记已用的规则；普通单条和其他模式保持原行为。\n• 本次仅更新插件，已安装工作台0.2.71无需重复更新；更早工作台请先升至0.2.71。请等当前任务结束，通过“立即更新”或“更新检测”安装，再完全退出并重开字字动画生效。",
-  "updated_at": "2026-10-30 21:42:28"
+  "notes": "• 画布新视频按原生文档顺序整齐排列，每列16个，满列向右换列；保留原节点、图文、参数和分镜绑定。\n• 优化画布先准备、后一键发送：仅提交原账号和原画布的对应节点，重复点击不重复提交；普通失败至少等6秒点原节点重新生成，审核不通过跳过，本批任一视频成功后停止其余失败节点的自动重试。\n• 补取母版只处理尚未成功回传的原分镜：已完成跳过，有完整本地原片只补登记，缺失或损坏才重新下载；仍按唯一VID查询官方高码率原片。\n• 优化新工作任务→技能（小窗…）→创建画布→新画布入口、真实附件和提示词核验、模型比例时长设置；时长滑条直接定位。移除准备数量每4秒扫描。\n• 豆包Fast优先普通账号，2.0优先会员；对齐原生Fast图文发送和自动确认流程，修复刷新后控件丢失阻断确认，优化官方原片查询及等待提示。\n• 普通专家模式兼容Chat/Work及Fast/Pro；保留四视频同号串行存稿、四份齐后发送、零成片可复用、任一专家成片记已用的原规则。\n• 请先更新并正常重开Anne工作台0.2.72，再更新插件并完全退出重开字字动画。更新保留账号、授权、配置和任务记录；Dreamina插件生成链路尚未开放。",
+  "updated_at": "2026-11-05 11:23:54"
 }

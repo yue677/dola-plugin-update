@@ -1,12 +1,12 @@
 {
-  "version": "0.9.135",
+  "version": "0.9.140",
   "plugin_id": "dola_doubao_auto_plugin",
   "name": "Anne自动化插件",
-  "url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.135/dola_doubao_auto_plugin-v0.9.135.zip",
-  "zip_url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.135/dola_doubao_auto_plugin-v0.9.135.zip",
-  "sha256": "9d52e0b2d230a8fb6ab535a3ef0032aaf31d946e0506a32c2e7039e1b1ec982f",
-  "size": 316578,
+  "url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.140/dola_doubao_auto_plugin-v0.9.140.zip",
+  "zip_url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.140/dola_doubao_auto_plugin-v0.9.140.zip",
+  "sha256": "13ecea9b609d106ab4a3b1a1b59e849e522d35e69f9ad74b014787e9fb346db0",
+  "size": 360034,
   "force": false,
-  "notes": "• 画布新视频按原生文档顺序整齐排列，每列16个，满列向右换列；保留原节点、图文、参数和分镜绑定。\n• 优化画布先准备、后一键发送：仅提交原账号和原画布的对应节点，重复点击不重复提交；普通失败至少等6秒点原节点重新生成，审核不通过跳过，本批任一视频成功后停止其余失败节点的自动重试。\n• 补取母版只处理尚未成功回传的原分镜：已完成跳过，有完整本地原片只补登记，缺失或损坏才重新下载；仍按唯一VID查询官方高码率原片。\n• 优化新工作任务→技能（小窗…）→创建画布→新画布入口、真实附件和提示词核验、模型比例时长设置；时长滑条直接定位。移除准备数量每4秒扫描。\n• 豆包Fast优先普通账号，2.0优先会员；对齐原生Fast图文发送和自动确认流程，修复刷新后控件丢失阻断确认，优化官方原片查询及等待提示。\n• 普通专家模式兼容Chat/Work及Fast/Pro；保留四视频同号串行存稿、四份齐后发送、零成片可复用、任一专家成片记已用的原规则。\n• 请先更新并正常重开Anne工作台0.2.72，再更新插件并完全退出重开字字动画。更新保留账号、授权、配置和任务记录；Dreamina插件生成链路尚未开放。",
-  "updated_at": "2026-11-05 11:23:54"
+  "notes": "• 新增国内即梦与国际版Dreamina独立生成平台，四个全称模型、各自账号与参数记忆；2.5支持4–30秒默认30秒，2.0/Fast/Mini支持4–15秒默认15秒，每秒可选。\n• 即梦两站支持字字所选图片、音频和视频，按字字资产名称写入原生@引用；精确去掉重复编号素材说明，保留完整正文。国际版首次接管检查并保存官网去水印设置。\n• 国际版同账号依次完成图文准备和提交，各任务凭官方回执独立等待、下载并返回原分镜；修复回执冲突误报，不套用通用并发门槛。只取对应任务的官方原片，已受理下载失败不重新生成。\n• 新增FeverHub API（模式五）及独立API管理：FeverPro/FeverPro+、加密保存key、素材上传审核和报价检查；API生成流程不启动或连接Anne浏览器，既有插件授权规则保持。\n• API提交使用幂等请求及持久化回执，按原分镜输出校验完整视频，下载失败续取、已完成跳过。素材上传、审核和预检已实测；付费生成与回传本轮仅通过隔离测试，尚未真实付费验收。\n• 修复普通Dola Seedance 2.0：新建空白对话后进入Create Videos，后台固定15秒；本任务稳定回复Plus提示时，在原对话仅补发一次“继续提交”，收到官方生成时间回执后等待并取回原分镜。\n• 原豆包、Dola专家四视频、画布一键发送、每列16个及失败重试规则保持。请先更新并正常重开Anne工作台0.2.73，再更新插件并完全退出重开字字；账号、授权、配置、任务和本机API key保留。",
+  "updated_at": "2026-11-07 18:39:33"
 }

@@ -1,12 +1,12 @@
 {
-  "version": "0.9.141",
+  "version": "0.9.144",
   "plugin_id": "dola_doubao_auto_plugin",
   "name": "Anne自动化插件",
-  "url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.141/dola_doubao_auto_plugin-v0.9.141.zip",
-  "zip_url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.141/dola_doubao_auto_plugin-v0.9.141.zip",
-  "sha256": "c679c699dc1e76555e03f53a90126bf2552e753bc9beba75e3a45689605b5bc5",
-  "size": 360071,
+  "url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.144/dola_doubao_auto_plugin-v0.9.144.zip",
+  "zip_url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.144/dola_doubao_auto_plugin-v0.9.144.zip",
+  "sha256": "0b85076c7778ce8f774c43bb8e97cfaebc5906fb9226712c6c665db2a446d7b2",
+  "size": 367419,
   "force": false,
-  "notes": "• 修复普通Dola Seedance 2.0误带角色参考音频：此选项只上传图片，字字中选中的音频会跳过，避免图片/视频上传入口因混入音频而失败。\n• 后台固定15秒、原对话单次“继续提交”、回执等待和原分镜回传规则保持；Dola专家四视频、豆包、国内/国际即梦和API等其他模式的音频逻辑不变。\n• 已在实际出错分镜验证8张图片全部上传、0音频、完整原提示词及15秒设置，停于发送前；本轮没有新增视频生成。任务结束后更新插件并完全退出重开字字即可，工作台仍为0.2.73，无需再次更新。",
-  "updated_at": "2026-11-07 20:17:44"
+  "notes": "• 豆包模型列表的 2.5 系列只保留 Seedance 2.5。旧配置中的 2.5 Fast 或 Mini 自动归到 Seedance 2.5。\n• 普通 Dola Seedance 2.0 走 Fast 视频入口，按 16:9、15 秒准备，发出的提示词保留原文。识别到对应会员提示后，在原对话自动回复一次“继续按原文提交”，确认生成回执后等待。\n• 普通 Dola 取回母版后回传对应分镜，日志显示成片实际时长。对话免费额度按账号每日 1 条处理，北京时间 08:00 重置。",
+  "updated_at": "2026-11-08 20:16:59"
 }

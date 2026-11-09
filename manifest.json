@@ -1,12 +1,12 @@
 {
-  "version": "0.9.144",
+  "version": "0.9.145",
   "plugin_id": "dola_doubao_auto_plugin",
   "name": "Anne自动化插件",
-  "url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.144/dola_doubao_auto_plugin-v0.9.144.zip",
-  "zip_url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.144/dola_doubao_auto_plugin-v0.9.144.zip",
-  "sha256": "0b85076c7778ce8f774c43bb8e97cfaebc5906fb9226712c6c665db2a446d7b2",
-  "size": 367419,
+  "url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.145/dola_doubao_auto_plugin-v0.9.145.zip",
+  "zip_url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.145/dola_doubao_auto_plugin-v0.9.145.zip",
+  "sha256": "803bfdf3beee7a7441177156b91fd6692c0760cd28666b9db81ca2680dd07030",
+  "size": 369984,
   "force": false,
-  "notes": "• 豆包模型列表的 2.5 系列只保留 Seedance 2.5。旧配置中的 2.5 Fast 或 Mini 自动归到 Seedance 2.5。\n• 普通 Dola Seedance 2.0 走 Fast 视频入口，按 16:9、15 秒准备，发出的提示词保留原文。识别到对应会员提示后，在原对话自动回复一次“继续按原文提交”，确认生成回执后等待。\n• 普通 Dola 取回母版后回传对应分镜，日志显示成片实际时长。对话免费额度按账号每日 1 条处理，北京时间 08:00 重置。",
-  "updated_at": "2026-11-08 20:16:59"
+  "notes": "• Dola、豆包、即梦、国际版即梦、画布和 API 模式的等待分秒集中显示在字字进度条，减少重复等待日志。成片下载后记录总等待时间。\n• 即梦和国际版即梦优先使用当前任务的官网生成百分比。等待、下载和回传继续绑定对应分镜。\n• Dola 专家模式识别英文思考、确认调用、生成中与成片状态，避免仍在生成时误判失败，保留已提交任务的原片回收。\n• Dola Fast 收到稳定的非生成回执时在当前对话最多补回两次“继续按原文提交”。仍未受理时先在同账号新建对话重提，再考虑切号。已进入生成的任务继续等待。\n• 插件更新后请完全退出并重开字字动画。",
+  "updated_at": "2026-11-09 18:17:09"
 }

@@ -4,7 +4,9 @@
 
 ## Anne工作台 · 轻量联网版
 
-[下载说明与当前版本](WORKBENCH_DOWNLOAD.md) · v0.2.74。首次分享包约 73.9 MB，运行时弹窗安装组件。
+[下载说明与当前版本](WORKBENCH_DOWNLOAD.md) · 首次分享包约 73.7 MB，运行时弹窗安装组件。
+
+原字字插件联网更新保持独立。
 
 <!-- /anne-workbench-download -->
 

@@ -1,12 +1,12 @@
 {
-  "version": "0.9.145",
+  "version": "0.9.150",
   "plugin_id": "dola_doubao_auto_plugin",
   "name": "Anne自动化插件",
-  "url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.145/dola_doubao_auto_plugin-v0.9.145.zip",
-  "zip_url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.145/dola_doubao_auto_plugin-v0.9.145.zip",
-  "sha256": "803bfdf3beee7a7441177156b91fd6692c0760cd28666b9db81ca2680dd07030",
-  "size": 369984,
+  "url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.150/dola_doubao_auto_plugin-v0.9.150.zip",
+  "zip_url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.150/dola_doubao_auto_plugin-v0.9.150.zip",
+  "sha256": "02d2c6632c96b82055589ddb9bedb15a82b283b675edcd6cf116d3be60ffc9d7",
+  "size": 384752,
   "force": false,
-  "notes": "• Dola、豆包、即梦、国际版即梦、画布和 API 模式的等待分秒集中显示在字字进度条，减少重复等待日志。成片下载后记录总等待时间。\n• 即梦和国际版即梦优先使用当前任务的官网生成百分比。等待、下载和回传继续绑定对应分镜。\n• Dola 专家模式识别英文思考、确认调用、生成中与成片状态，避免仍在生成时误判失败，保留已提交任务的原片回收。\n• Dola Fast 收到稳定的非生成回执时在当前对话最多补回两次“继续按原文提交”。仍未受理时先在同账号新建对话重提，再考虑切号。已进入生成的任务继续等待。\n• 插件更新后请完全退出并重开字字动画。",
-  "updated_at": "2026-11-09 18:17:09"
+  "notes": "• 修复豆包画布多分镜和长提示词准备：严格按进入插件的顺序准备，等待模型/比例和滑条稳定，再读取真实时长；已有或新画布自动放大，兼容工作台大小窗口。\n• 修复多列节点超出可视区或被长输入区遮挡时的定位；每列16个只是排版，并非任务上限。准备面板补充字字“设置→性能→插件生图最大同时提交任务数量”的位置，不自动修改你的设置。\n• 一键发送保持账号、原画布和节点精确绑定；普通失败等待至少6秒再重试，审核拒绝跳过，本批任意一个成功停止其余失败节点重试。完成日志标注分镜编号并保留总等待用时，已下载的跳过。\n• 新增Dola网页端专家单条桥接，修复上传菜单延迟出现、控件被网页替换导致附件选择不确定；保持完整提示词、原素材顺序和原分镜输出，不确定的提交不重复发送。桌面Dola普通对话等原规则保持。\n• 真实豆包Fast已测试40条约5000字、每条6图准备，大小窗口15秒核对通过，测试未发送生成。普通2.0受测试账号权限限制；新官网生成到母版回传本轮未完成端到端验收。\n• 先更新并正常重开Anne工作台0.2.76，再更新插件并完全退出重开字字。只准备待发送时请保持画布页面打开；网站重开可能清空未发送节点输入，插件会阻止误发。账号、授权和任务记录保留。",
+  "updated_at": "2026-11-14 18:36:36"
 }

@@ -1,12 +1,12 @@
 {
-  "version": "0.9.160",
+  "version": "0.9.172",
   "plugin_id": "dola_doubao_auto_plugin",
   "name": "Anne自动化插件",
-  "url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.160/dola_doubao_auto_plugin-v0.9.160.zip",
-  "zip_url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.160/dola_doubao_auto_plugin-v0.9.160.zip",
-  "sha256": "4d95405cd324a4505cb601a12914a5fc1c3b8e308ef8fba1612c4be94aeb5ca4",
-  "size": 414617,
+  "url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.172/dola_doubao_auto_plugin-v0.9.172.zip",
+  "zip_url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.172/dola_doubao_auto_plugin-v0.9.172.zip",
+  "sha256": "b5fe2778b23d927e5efe64ba49d4ccdc4a710ebd5969838e1ccdea2895dc59a6",
+  "size": 425657,
   "force": false,
-  "notes": "• 修复Dola网页专家模式的新版Skills菜单识别，可自动选择Creative Videos；按原生界面点击并回读确认，不确认时保留页面。\n• 修复分镜批量2次时网页标签尚未加载造成其中一次失败：只等待已分配账号的原标签，保留每次生成与原分镜、槽位的对应关系。\n• 同步Dola网页专家已用/可用手动标记，保留正在运行任务与原额度记录；继续保留原对话60秒刷新及视频校验、回传后关闭对应标签。\n• 豆包画布同批提交后自动缩至画布最小比例等待，失败视频在最小比例直接点击原节点重试，不自动放大；必要时平移定位，维持8秒间隔、审核拒绝跳过、任一成功停止同批其他失败重试。\n• 保留桌面/网页平台分流、普通2.0、画布模型/比例设置和通用视频API。请先更新并重开Anne工作台0.2.78，再更新插件并完全退出重开字字；任务进行中可稍后更新。\n• 已完成隔离浏览器、协议、分镜绑定与更新弹窗检查；本次未代用户提交官网新视频或使用付费API生成。",
-  "updated_at": "2026-11-18 11:08:29"
+  "notes": "• Dola 网页普通 2.0 支持在原对话自动续回。识别对应任务的 Plus 提示后，最多按两条不同提示各补回一次。收到生成回执或成片后停止续回。遇到平台明确提示今日免费额度用尽时，按现有额度规则处理。\n• Dola 网页账号列表可区分可用账号与旧任务占用，普通 2.0 可逐账号重置本地排程与使用标记。起始账号失效时提示重新选择。回传视频后可正常关闭对应标签。\n• 兼容 Dola 专家新版「对话 / Work Cloud computer」菜单，自动关闭挡住操作的 Dola 和豆包推广弹窗。改进网页的输入与发送确认。\n• 豆包对话兼容新版「技能」内的视频入口，修复首次连接时页面尚未就绪、空编辑器误判为有草稿及参考图模式兼容问题。\n• 国际版即梦 Dreamina 全能参考会自动 @ 分镜中手动添加的站位图，并标注「是参考图片，只作为位置参考，根据提示词描述辅助站位进行创作。」参考图总数超过 9 张时提示调整。\n• 请先结束手头任务，更新并重开 Anne 工作台，再更新插件并完全退出重开字字动画。",
+  "updated_at": "2026-11-21 14:49:51"
 }

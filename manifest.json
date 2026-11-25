@@ -1,12 +1,12 @@
 {
-  "version": "0.9.178",
+  "version": "0.9.181",
   "plugin_id": "dola_doubao_auto_plugin",
   "name": "Anne自动化插件",
-  "url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.178/dola_doubao_auto_plugin-v0.9.178.zip",
-  "zip_url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.178/dola_doubao_auto_plugin-v0.9.178.zip",
-  "sha256": "ee4fd5572d9c55238cd1018c38fddb27d499b5f99b6ef84c7dd3d6dee00abfd2",
-  "size": 431047,
+  "url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.181/dola_doubao_auto_plugin-v0.9.181.zip",
+  "zip_url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.181/dola_doubao_auto_plugin-v0.9.181.zip",
+  "sha256": "f77ce568ea0b566563e66764286276f495344bd68ee0bd6d423cfa6e1e28644e",
+  "size": 445070,
   "force": false,
-  "notes": "• 国际版即梦的时长可逐秒选择，也可选「自适应」。自适应会逐个分镜读取提示词中的总时长，例如「总时长18s」。没写总时长时使用所选模型的默认秒数。\n• 豆包画布新增 Seedance 2.5 Flash。页面开放 1080P 时优先选择，其他情况下使用网页默认分辨率。Seedance 2.5、2.5 Flash 和 2.0 支持逐秒选择和自适应。\n• 国际版即梦会显示跟随官网的生成进度，各分镜分别显示自己的状态。官网审核未通过时，插件会直接报错。\n• 豆包可在原对话自动回复「确认生成视频」。改进 Dola 网页端普通模式的续回及发送确认。",
-  "updated_at": "2026-11-25 11:41:32"
+  "notes": "• 新增「国际版即梦 · 无限 2.5」。选好 Dreamina 账号后，插件会进入 Drama Studio，填写 Seedance 2.5、30 秒、1080p 和 16:9 的生成要求。每个分镜最多可参考 30 张图片、10 个音频和 10 个视频。\n• 两种国际版即梦都能识别在字字分镜里手动添加的站位图。上传后自动插入原生 @ 引用，并加上「是参考图片，只作为位置参考，根据提示词描述辅助站位进行创作。」\n• 无限 2.5 最多同时处理 10 个分镜。每个分镜使用一个空闲账号，账号不足时排队。各分镜独立显示状态和等待时长，成片回传到原分镜。\n• 无限 2.5 会按本次官网任务核对无水印成片，从可用的版本里选择实际视频码率最高的文件回传。",
+  "updated_at": "2026-11-25 14:40:50"
 }

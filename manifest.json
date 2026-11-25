@@ -1,12 +1,12 @@
 {
-  "version": "0.9.181",
+  "version": "0.9.183",
   "plugin_id": "dola_doubao_auto_plugin",
   "name": "Anne自动化插件",
-  "url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.181/dola_doubao_auto_plugin-v0.9.181.zip",
-  "zip_url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.181/dola_doubao_auto_plugin-v0.9.181.zip",
-  "sha256": "f77ce568ea0b566563e66764286276f495344bd68ee0bd6d423cfa6e1e28644e",
-  "size": 445070,
+  "url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.183/dola_doubao_auto_plugin-v0.9.183.zip",
+  "zip_url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.183/dola_doubao_auto_plugin-v0.9.183.zip",
+  "sha256": "06b9368ffa9c88c7057b83c6af9793fa6398542fbfffad79b353e79c9ee2da3a",
+  "size": 446937,
   "force": false,
-  "notes": "• 新增「国际版即梦 · 无限 2.5」。选好 Dreamina 账号后，插件会进入 Drama Studio，填写 Seedance 2.5、30 秒、1080p 和 16:9 的生成要求。每个分镜最多可参考 30 张图片、10 个音频和 10 个视频。\n• 两种国际版即梦都能识别在字字分镜里手动添加的站位图。上传后自动插入原生 @ 引用，并加上「是参考图片，只作为位置参考，根据提示词描述辅助站位进行创作。」\n• 无限 2.5 最多同时处理 10 个分镜。每个分镜使用一个空闲账号，账号不足时排队。各分镜独立显示状态和等待时长，成片回传到原分镜。\n• 无限 2.5 会按本次官网任务核对无水印成片，从可用的版本里选择实际视频码率最高的文件回传。",
-  "updated_at": "2026-11-25 14:40:50"
+  "notes": "• 无限 2.5 下载成片后，等字字动画确认已回填到原分镜，再关闭对应的 Dreamina 窗口。并发时各分镜分别关窗，其他任务继续运行。\n• 修复角色图和场景图误标为站位图的问题。手动添加的站位图会跟随原生艾特加上位置参考说明，正文里的重复编号素材清单会自动去掉。\n• 请等任务结束，先更新并重开 Anne 工作台 0.2.80，再在字字动画更新插件并重启字字。",
+  "updated_at": "2026-11-25 15:42:11"
 }

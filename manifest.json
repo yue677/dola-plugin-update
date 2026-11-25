@@ -1,12 +1,12 @@
 {
-  "version": "0.9.183",
+  "version": "0.9.185",
   "plugin_id": "dola_doubao_auto_plugin",
   "name": "Anne自动化插件",
-  "url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.183/dola_doubao_auto_plugin-v0.9.183.zip",
-  "zip_url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.183/dola_doubao_auto_plugin-v0.9.183.zip",
-  "sha256": "06b9368ffa9c88c7057b83c6af9793fa6398542fbfffad79b353e79c9ee2da3a",
-  "size": 446937,
+  "url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.185/dola_doubao_auto_plugin-v0.9.185.zip",
+  "zip_url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.185/dola_doubao_auto_plugin-v0.9.185.zip",
+  "sha256": "6261ec1955c112eb60c9d935daf3e31775a461ce5aa7d561c68b23a9745e59ba",
+  "size": 449390,
   "force": false,
-  "notes": "• 无限 2.5 下载成片后，等字字动画确认已回填到原分镜，再关闭对应的 Dreamina 窗口。并发时各分镜分别关窗，其他任务继续运行。\n• 修复角色图和场景图误标为站位图的问题。手动添加的站位图会跟随原生艾特加上位置参考说明，正文里的重复编号素材清单会自动去掉。\n• 请等任务结束，先更新并重开 Anne 工作台 0.2.80，再在字字动画更新插件并重启字字。",
-  "updated_at": "2026-11-25 15:42:11"
+  "notes": "• 国际版即梦 · 无限 2.5 新增 720p 和 1080p 选择，默认 1080p。插件按所选分辨率填写提示词，30 秒、16:9。\n• 兼容 Drama Studio 的两种 AI scriptwriter 布局。等待当前编辑器的参考素材入口就绪，再上传图片、音频和视频，并插入对应的艾特。\n• 国际版即梦 · 无限 2.5 会把官网已结束的视频生成错误回传到对应分镜，包括 Seedance 2.5 请求频率超限。",
+  "updated_at": "2026-11-25 17:12:59"
 }

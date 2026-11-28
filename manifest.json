@@ -1,12 +1,12 @@
 {
-  "version": "0.9.187",
+  "version": "0.9.193",
   "plugin_id": "dola_doubao_auto_plugin",
   "name": "Anne自动化插件",
-  "url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.187/dola_doubao_auto_plugin-v0.9.187.zip",
-  "zip_url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.187/dola_doubao_auto_plugin-v0.9.187.zip",
-  "sha256": "c94d8835eef974f8bf6ae64653bc1bba6a89af7817b9a4f0d9e09a1dbca3b9a1",
-  "size": 449707,
+  "url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.193/dola_doubao_auto_plugin-v0.9.193.zip",
+  "zip_url": "https://github.com/yue677/dola-plugin-update/releases/download/v0.9.193/dola_doubao_auto_plugin-v0.9.193.zip",
+  "sha256": "bcbd545ee016d7190ccaa75559993578a519901b7fd0d3ef7a62cea509e47caa",
+  "size": 453950,
   "force": false,
-  "notes": "• 国际版即梦 · 无限 2.5 按原任务回执持续查片，取消生成等待上限并隐藏该设置。\n• 官网返回成片后即可取回，即使 Drama Studio 的对话仍在运行。插件显示核对无水印原片、下载和回填状态。",
-  "updated_at": "2026-11-25 19:33:20"
+  "notes": "• 普通国际版即梦自动读取官网的 Unlimited 开关。开启且显示 0 积分时，同账号分镜依次提交。关闭后，新分镜可用积分直接提交，已提交的视频仍按各自回执下载并回传。\n• 分镜按钮持续显示「排队中」，切换分镜后会恢复状态。右侧「分镜并发与排队」默认折叠，显示活动任务数和排队数，展开后可滚动查看。\n• 普通国际版即梦保留素材的 @ 引用，去掉重复的「图片 1 是什么」说明。遇到少于 2 秒的音频，报错会标出对应角色或素材。\n• 国际版即梦 · 无限 2.5 改进参考素材上传的账号兼容性，识别当前页面是否提供上传入口，并反馈上传失败原因。",
+  "updated_at": "2026-11-28 15:31:42"
 }
